@@ -1,0 +1,102 @@
+Output of Exercises 1-4
+
+---------- Exercise 1
+
+(No output; robot is assembled)
+
+
+---------- Exercise 2
+
+----- About the Kernel -- interrupting the kernel
+
+---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+<ipython-input-1-31d8a085a935> in <module>()
+      2 
+      3 while True:
+----> 4     sleep(1)
+
+KeyboardInterrupt:
+
+
+----- About the Kernel -- kill the kernel but still have a robot that keeps on going forever
+
+---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+<ipython-input-2-27724cbdb36f> in <module>()
+      2 g = easy.EasyGoPiGo3()
+      3 while True:
+----> 4     g.right()
+
+/opt/miniconda3/lib/python3.6/site-packages/gopigo3-1.2.0-py3.6.egg/easygopigo3.py in right(self)
+    342         """
+    343         self.set_motor_dps(self.MOTOR_LEFT, self.NO_LIMIT_SPEED)
+--> 344         self.set_motor_dps(self.MOTOR_RIGHT, 0)
+    345 
+    346     def spin_right(self):
+
+/opt/miniconda3/lib/python3.6/site-packages/gopigo3-1.2.0-py3.6.egg/gopigo3.py in set_motor_dps(self, port, dps)
+    489         outArray = [self.SPI_Address, self.SPI_MESSAGE_TYPE.SET_MOTOR_DPS, int(port),\
+    490                     ((dps >> 8) & 0xFF), (dps & 0xFF)]
+--> 491         self.spi_transfer_array(outArray)
+    492 
+    493     def set_motor_limits(self, port, power = 0, dps = 0):
+
+/opt/miniconda3/lib/python3.6/site-packages/gopigo3-1.2.0-py3.6.egg/gopigo3.py in spi_transfer_array(self, data_out)
+    241         Returns a list of the bytes read.
+    242         """
+--> 243         result = GPG_SPI.xfer2(data_out)
+    244         return result
+    245 
+
+KeyboardInterrupt: 
+
+
+---------- Exercise 3
+
+(No output; buttons control robot)
+
+
+---------- Exercise 4
+
+----- Battery Level
+
+Battery voltage :  9.483
+
+----- Information from the board
+
+Manufacturer    :  Dexter Industries
+Board           :  GoPiGo3
+Serial Number   :  11B51607514E3437324A2020FF042514
+Hardware version:  3.x.x
+Firmware version:  1.0.0
+Battery voltage :  9.44
+5v voltage      :  4.961
+
+----- LED test
+
+(No output; LEDs changed colors)
+
+----- Blinker test
+
+(No output; blinkers blinked)
+
+----- Motors and Encoders Test
+
+LEFT: [0, 24, 4753, 101]  RIGHT:[0, 26, 3377, 101]
+LEFT: [0, 26, 4803, 96]  RIGHT:[0, 28, 3427, 96]
+LEFT: [0, 19, 4853, 101]  RIGHT:[0, 26, 3478, 101]
+LEFT: [0, 24, 4904, 96]  RIGHT:[0, 24, 3528, 101]
+LEFT: [0, 24, 4954, 101]  RIGHT:[0, 19, 3579, 101]
+LEFT: [0, 24, 5004, 101]  RIGHT:[0, 26, 3629, 101]
+LEFT: [0, 17, 5054, 101]  RIGHT:[0, 24, 3679, 101]
+LEFT: [0, 24, 5105, 101]  RIGHT:[0, 26, 3729, 96]
+LEFT: [0, 26, 5155, 96]  RIGHT:[0, 21, 3779, 101]
+LEFT: [0, 19, 5205, 101]  RIGHT:[0, 26, 3830, 101]
+LEFT: [0, 24, 5255, 96]  RIGHT:[0, 24, 3880, 101]
+Test passed.
+
+----- Driving test
+
+Drove 10.00 cm
+Test passed.

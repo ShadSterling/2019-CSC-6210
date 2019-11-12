@@ -1,0 +1,2228 @@
+Script started on Thu 04 Apr 2019 03:58:31 PM UTC
+access control disabled, clients can connect from any host
+GoPiGo3
+write_state: GoPiGo3
+Xlib:  extension "RANDR" missing on display ":1.0".
+read_state: GoPiGo3
+setting drop down to GoPiGo3
+read_state: GoPiGo3
+GoPiGo3.png
+Start software update!
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2180  100  2180    0     0   8001      0 --:--:-- --:--:-- --:--:--  8044
+[33mCopying Version file to ~/Dexter(B[m
+[33m--> Begin Update.(B[m
+[33m--> =======================================(B[m
+[33mVersion 9 found! You have Stretch!(B[m
+0% [Working]            Get:1 http://deb.nodesource.com/node_9.x stretch InRelease [4,623 B]
+0% [Connecting to raspbian.raspberrypi.org] [1 InRelease 1,440 B/4,623 B 31%] [0% [Connecting to raspbian.raspberrypi.org] [Connecting to archive.raspberrypi.                                                                               Get:2 http://raspbian.raspberrypi.org/raspbian stretch InRelease [15.0 kB]
+                                                                               Hit:3 http://archive.raspberrypi.org/debian stretch InRelease
+                                                                               0% [Working]0% [1 InRelease gpgv 4,623 B]                             0% [Working]0% [2 InRelease gpgv 15.0 kB]                             0% [Working]0% [3 InRelease gpgv 25.4 kB] [Connecting to raspbian.raspberrypi.org (93.93.12                                                                               Get:4 http://raspbian.raspberrypi.org/raspbian stretch/main armhf Packages [11.7 MB]
+                                                                               0% [3 InRelease gpgv 25.4 kB] [4 Packages 14.1 kB/11.7 MB 0%]                                                             20% [4 Packages 42.9 kB/11.7 MB 0%]                                   23% [4 Packages 463 kB/11.7 MB 4%]27% [4 Packages 1,109 kB/11.7 MB 10%]33% [4 Packages 1,909 kB/11.7 MB 16%]39% [4 Packages 2,828 kB/11.7 MB 24%]47% [4 Packages 3,922 kB/11.7 MB 34%]56% [4 Packages 5,273 kB/11.7 MB 45%]68% [4 Packages 7,005 kB/11.7 MB 60%]81% [4 Packages 9,017 kB/11.7 MB 77%]97% [4 Packages 11.2 MB/11.7 MB 96%]                              1,758 kB/s 0s100% [Working]                                                    1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                       1,758 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s100% [4 Packages store 0 B]                                        67.8 kB/s 0s                                                                               100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]100% [4 Packages store 0 B]                           100% [Working]              Fetched 11.7 MB in 26s (446 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 18%Reading package lists... 36%Reading package lists... 55%Reading package lists... 72%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+[33mInstall Specific Libraries.(B[m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 96%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+autocutsel is already the newest version (0.10.0-2).
+avahi-daemon is already the newest version (0.6.32-2).
+avahi-utils is already the newest version (0.6.32-2).
+espeak is already the newest version (1.48.04+dfsg-5).
+i2c-tools is already the newest version (3.1.2-3).
+python-serial is already the newest version (3.2.1-1).
+python-setuptools is already the newest version (33.1.1-1).
+python-smbus is already the newest version (3.1.2-3).
+python3-serial is already the newest version (3.2.1-1).
+python3-smbus is already the newest version (3.1.2-3).
+screen is already the newest version (4.5.0-6).
+shellinabox is already the newest version (2.20).
+python-picamera is already the newest version (1.13).
+python-rpi.gpio is already the newest version (0.6.5~stretch-1).
+python3-picamera is already the newest version (1.13).
+python3-rpi.gpio is already the newest version (0.6.5~stretch-1).
+raspberrypi-net-mods is already the newest version (1.2.7).
+geany is already the newest version (1.29-1+rpt2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 96%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.25-3+deb9u7).
+libapache2-mod-php is already the newest version (1:7.0+49).
+php is already the newest version (1:7.0+49).
+websockify is already the newest version (0.8.0+dfsg1-7).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Requirement already up-to-date: RPi.GPIO in /usr/lib/python2.7/dist-packages
+Requirement already up-to-date: future in /usr/local/lib/python2.7/dist-packages
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 94%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+raspberrypi-kernel is already the newest version (1.20190215-1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The user `pi' is already a member of `i2c'.
+[33m--> Begin Kernel Updates.(B[m
+[33m--> Start Update /etc/modules.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> Start Update Raspberry Pi Blacklist.conf(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> Update Config.txt file(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> End Kernel Updates.(B[m
+[33m--> Desktop cleanup.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> Begin Update Dexter Industries Software Packages.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   178  100   178    0     0   1741      0 --:--:-- --:--:-- --:--:--  1762
+100   178  100   178    0     0    873      0 --:--:-- --:--:-- --:--:--   873
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2180  100  2180    0     0   2961      0 --:--:-- --:--:-- --:--:-- 28684
+[33m--> Installing RFR TOOLS including Scratch and Troubleshooting(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10149  100 10149    0     0  39192      0 --:--:-- --:--:-- --:--:-- 39337
+Updating RFR_Tools for master branch with the following options:
+  --install-python-package=true
+  --system-wide=true
+  --user-local=false
+  --env-local=false
+  --use-python3-exe-too=true
+  --update-aptget=true
+  --install-deb-deps=true
+  --install-gui=true
+Updating debian repository within RFR_Tools 
+OK
+Added NodeJS repo to source for apt-get for "stretch" distribution
+0% [Working]            Get:1 http://deb.nodesource.com/node_9.x stretch InRelease [4,623 B]
+0% [Connecting to raspbian.raspberrypi.org (93.93.128.193)] [1 InRelease 1,440 0% [Connecting to raspbian.raspberrypi.org (93.93.128.193)] [Connecting to arch0% [1 InRelease gpgv 4,623 B] [Connecting to raspbian.raspberrypi.org (93.93.12                                                                               Hit:2 http://archive.raspberrypi.org/debian stretch InRelease
+                                                                               0% [1 InRelease gpgv 4,623 B] [Waiting for headers]                                                   Hit:3 http://raspbian.raspberrypi.org/raspbian stretch InRelease
+                                                   0% [1 InRelease gpgv 4,623 B]                             0% [Working]0% [2 InRelease gpgv 25.4 kB]                             0% [Working]0% [3 InRelease gpgv 15.0 kB]                             100% [Working]              Fetched 4,623 B in 1s (3,372 B/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 18%Reading package lists... 36%Reading package lists... 55%Reading package lists... 72%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Installing debian dependencies within RFR_Tools. This might take a while..
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 95%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+build-essential is already the newest version (12.3).
+git is already the newest version (1:2.11.0-3+deb9u4).
+i2c-tools is already the newest version (3.1.2-3).
+libffi-dev is already the newest version (3.2.1-6).
+libi2c-dev is already the newest version (3.1.2-3).
+python-dev is already the newest version (2.7.13-2).
+python-setuptools is already the newest version (33.1.1-1).
+python3-dev is already the newest version (3.5.3-1).
+python3-setuptools is already the newest version (33.1.1-1).
+python-pip is already the newest version (9.0.1-2+rpt2).
+python3-pip is already the newest version (9.0.1-2+rpt2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Installing script_tools. This might take a while..
+[33mDone installing script_tools(B[m
+Removing "auto_detect_rpi" to make space for the new one
+Removing /usr/local/lib/python2.7/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python2.7/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py3.5.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py3.5.egg egg
+Installing python package for RFR_Tools 
+running install
+running bdist_egg
+running egg_info
+creating Dexter_AutoDetection_and_I2C_Mutex.egg-info
+writing requirements to Dexter_AutoDetection_and_I2C_Mutex.egg-info/requires.txt
+writing Dexter_AutoDetection_and_I2C_Mutex.egg-info/PKG-INFO
+writing top-level names to Dexter_AutoDetection_and_I2C_Mutex.egg-info/top_level.txt
+writing dependency_links to Dexter_AutoDetection_and_I2C_Mutex.egg-info/dependency_links.txt
+writing manifest file 'Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt'
+reading manifest file 'Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt'
+writing manifest file 'Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+copying auto_detect_robot.py -> build/lib.linux-armv7l-2.7
+copying auto_detect_rpi.py -> build/lib.linux-armv7l-2.7
+copying I2C_mutex.py -> build/lib.linux-armv7l-2.7
+copying di_i2c.py -> build/lib.linux-armv7l-2.7
+copying di_mutex.py -> build/lib.linux-armv7l-2.7
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/auto_detect_robot.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/di_mutex.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/I2C_mutex.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/auto_detect_rpi.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/di_i2c.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/auto_detect_robot.py to auto_detect_robot.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_mutex.py to di_mutex.pyc
+byte-compiling build/bdist.linux-armv7l/egg/I2C_mutex.py to I2C_mutex.pyc
+byte-compiling build/bdist.linux-armv7l/egg/auto_detect_rpi.py to auto_detect_rpi.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_i2c.py to di_i2c.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py2.7.egg
+Copying Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding Dexter-AutoDetection-and-I2C-Mutex 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py2.7.egg
+Processing dependencies for Dexter-AutoDetection-and-I2C-Mutex==0.0.0
+Searching for wiringpi==2.46.0
+Best match: wiringpi 2.46.0
+Processing wiringpi-2.46.0-py2.7-linux-armv7l.egg
+wiringpi 2.46.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/wiringpi-2.46.0-py2.7-linux-armv7l.egg
+Searching for smbus-cffi==0.5.1
+Best match: smbus-cffi 0.5.1
+Processing smbus_cffi-0.5.1-py2.7-linux-armv7l.egg
+smbus-cffi 0.5.1 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/smbus_cffi-0.5.1-py2.7-linux-armv7l.egg
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py2.7.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/python_periphery-1.1.0-py2.7.egg
+Searching for pyserial==3.2.1
+Best match: pyserial 3.2.1
+Adding pyserial 3.2.1 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Searching for cffi==1.11.5
+Best match: cffi 1.11.5
+Processing cffi-1.11.5-py2.7-linux-armv7l.egg
+cffi 1.11.5 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/cffi-1.11.5-py2.7-linux-armv7l.egg
+Searching for pycparser==2.18
+Best match: pycparser 2.18
+Processing pycparser-2.18-py2.7.egg
+pycparser 2.18 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/pycparser-2.18-py2.7.egg
+Finished processing dependencies for Dexter-AutoDetection-and-I2C-Mutex==0.0.0
+running install
+running bdist_egg
+running egg_info
+writing Dexter_AutoDetection_and_I2C_Mutex.egg-info/PKG-INFO
+writing dependency_links to Dexter_AutoDetection_and_I2C_Mutex.egg-info/dependency_links.txt
+writing top-level names to Dexter_AutoDetection_and_I2C_Mutex.egg-info/top_level.txt
+writing requirements to Dexter_AutoDetection_and_I2C_Mutex.egg-info/requires.txt
+reading manifest file 'Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt'
+writing manifest file 'Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+copying auto_detect_robot.py -> build/lib
+copying auto_detect_rpi.py -> build/lib
+copying I2C_mutex.py -> build/lib
+copying di_i2c.py -> build/lib
+copying di_mutex.py -> build/lib
+creating build/bdist.linux-armv7l/egg
+copying build/lib/auto_detect_robot.py -> build/bdist.linux-armv7l/egg
+copying build/lib/di_mutex.py -> build/bdist.linux-armv7l/egg
+copying build/lib/I2C_mutex.py -> build/bdist.linux-armv7l/egg
+copying build/lib/auto_detect_rpi.py -> build/bdist.linux-armv7l/egg
+copying build/lib/di_i2c.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/auto_detect_robot.py to auto_detect_robot.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_mutex.py to di_mutex.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/I2C_mutex.py to I2C_mutex.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/auto_detect_rpi.py to auto_detect_rpi.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_i2c.py to di_i2c.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Dexter_AutoDetection_and_I2C_Mutex.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py3.5.egg
+Copying Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+Adding Dexter-AutoDetection-and-I2C-Mutex 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python3.5/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-0.0.0-py3.5.egg
+Processing dependencies for Dexter-AutoDetection-and-I2C-Mutex==0.0.0
+Searching for wiringpi==2.46.0
+Best match: wiringpi 2.46.0
+Processing wiringpi-2.46.0-py3.5-linux-armv7l.egg
+wiringpi 2.46.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/wiringpi-2.46.0-py3.5-linux-armv7l.egg
+Searching for smbus-cffi==0.5.1
+Best match: smbus-cffi 0.5.1
+Processing smbus_cffi-0.5.1-py3.5-linux-armv7l.egg
+smbus-cffi 0.5.1 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/smbus_cffi-0.5.1-py3.5-linux-armv7l.egg
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py3.5.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/python_periphery-1.1.0-py3.5.egg
+Searching for pyserial==3.2.1
+Best match: pyserial 3.2.1
+Adding pyserial 3.2.1 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for cffi==1.11.5
+Best match: cffi 1.11.5
+Processing cffi-1.11.5-py3.5-linux-armv7l.egg
+cffi 1.11.5 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/cffi-1.11.5-py3.5-linux-armv7l.egg
+Searching for pycparser==2.18
+Best match: pycparser 2.18
+Processing pycparser-2.18-py3.5.egg
+pycparser 2.18 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/pycparser-2.18-py3.5.egg
+Finished processing dependencies for Dexter-AutoDetection-and-I2C-Mutex==0.0.0
+/home/pi/Dexter/lib/Dexter/RFR_Tools/advanced_communication_options
+~/Dexter/lib/Dexter/RFR_Tools/advanced_communication_options ~/Dexter/lib/Dexter/RFR_Tools/advanced_communication_options
+/home/pi/Dexter/lib/Dexter
+~/Dexter/lib/Dexter/RFR_Tools/advanced_communication_options
+[33mInstalling Scratch Environment(B[m
+[33mInstalling Scratch on the desktop(B[m
+Version: 9
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 96%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+nuscratch is already the newest version (20170112).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[33mInstalling TroubleShooting(B[m
+[33mDone with TRoubleshooting(B[m
+[33m--> Start GoPiGo3 Update.(B[m
+[33m##############################(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 11707  100 11707    0     0  41723      0 --:--:-- --:--:-- --:--:-- 41810
+  _____            _                                
+ |  __ \          | |                               
+ | |  | | _____  _| |_ ___ _ __                     
+ | |  | |/ _ \ \/ / __/ _ \ '__|                    
+ | |__| |  __/>  <| ||  __/ |                       
+ |_____/ \___/_/\_\\__\___|_|          _            
+ |_   _|         | |         | |      (_)           
+   | |  _ __   __| |_   _ ___| |_ _ __ _  ___  ___  
+   | | | '_ \ / _\ | | | / __| __| '__| |/ _ \/ __| 
+  _| |_| | | | (_| | |_| \__ \ |_| |  | |  __/\__ \ 
+ |_____|_| |_|\__,_|\__,_|___/\__|_|  |_|\___||___/ 
+                                                    
+                                                    
+   ____       ____  _  ____      _____ 
+  / ___| ___ |  _ \(_)/ ___| ___|___ / 
+ | |  _ / _ \| |_) | | |  _ / _ \ |_ \ 
+ | |_| | (_) |  __/| | |_| | (_) |__) |
+  \____|\___/|_|   |_|\____|\___/____/ 
+                                       
+[33mWelcome to GoPiGo3 Installer.(B[m
+Updating GoPiGo3 for master branch with the following options:
+  --no-dependencies=false
+  --no-update-aptget=false
+  --bypass-rfrtools=true
+  --bypass-python-rfrtools=false
+  --bypass-gui-installation=false
+  --user-local=false
+  --env-local=false
+  --system-wide=true
+Using "master" branch
+Options used for RFR_Tools script: "--system-wide master --use-python3-exe-too --update-aptget --install-deb-deps --install-python-package --install-gui"
+[33mInstalling Dependencies for the GoPiGo3(B[m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 96%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+python-curtsies is already the newest version (0.2.11-1).
+python-numpy is already the newest version (1:1.12.1-3).
+python3-curtsies is already the newest version (0.2.11-1).
+python3-numpy is already the newest version (1:1.12.1-3).
+python-pip is already the newest version (9.0.1-2+rpt2).
+python3-pip is already the newest version (9.0.1-2+rpt2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[33mDependencies installed for the GoPiGo3(B[m
+[33mwiringPi VERSION is 236(B[m
+[33mFOUND WiringPi Version 2.36 No installation needed.(B[m
+[33mRemoving blacklist from /etc/modprobe.d/raspi-blacklist.conf(B[m
+SPI already removed from blacklist
+[33mAdding SPI-dev in /etc/modules(B[m
+spi-dev already there
+[33mMaking SPI changes in /boot/config.txt(B[m
+SPI already enabled
+[33mRemoving "gopigo3" to make space for the new one(B[m
+Removing /usr/local/lib/python2.7/dist-packages/gopigo3-1.2.0-py2.7.egg egg
+Removing /usr/local/lib/python2.7/dist-packages/gopigo3-1.2.0-py2.7.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/gopigo3-1.2.0-py3.5.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/gopigo3-1.2.0-py3.5.egg egg
+running install
+running bdist_egg
+running egg_info
+creating gopigo3.egg-info
+writing requirements to gopigo3.egg-info/requires.txt
+writing gopigo3.egg-info/PKG-INFO
+writing top-level names to gopigo3.egg-info/top_level.txt
+writing dependency_links to gopigo3.egg-info/dependency_links.txt
+writing manifest file 'gopigo3.egg-info/SOURCES.txt'
+reading manifest file 'gopigo3.egg-info/SOURCES.txt'
+writing manifest file 'gopigo3.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+copying gopigo3.py -> build/lib.linux-armv7l-2.7
+copying easygopigo3.py -> build/lib.linux-armv7l-2.7
+copying easysensors.py -> build/lib.linux-armv7l-2.7
+creating build/lib.linux-armv7l-2.7/Examples
+copying Examples/Motor_Turn.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_Buzzer.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Motor_Encoder.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_Distance_Sensor.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/LED.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_Button.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Motor_Position.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove_IR.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_Motors.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove_Light_Sensor.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/gps_reading.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove_LED.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_Light_Sensor.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/__init__.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_LED.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove_US2.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Motor_Follow.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_Blinkers.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove_Buzzer.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove_US.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Remote_Control.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Motor_Speed.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Motor.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Grove_I2C.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/easy_DexEyes.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Read_Info.py -> build/lib.linux-armv7l-2.7/Examples
+copying Examples/Servo.py -> build/lib.linux-armv7l-2.7/Examples
+creating build/lib.linux-armv7l-2.7/mock_package
+copying mock_package/distance_sensor.py -> build/lib.linux-armv7l-2.7/mock_package
+copying mock_package/__init__.py -> build/lib.linux-armv7l-2.7/mock_package
+creating build/lib.linux-armv7l-2.7/Examples/Control_Panel
+copying Examples/Control_Panel/control_panel_gui_3.py -> build/lib.linux-armv7l-2.7/Examples/Control_Panel
+copying Examples/Control_Panel/__init__.py -> build/lib.linux-armv7l-2.7/Examples/Control_Panel
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+creating build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Motor_Turn.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_Buzzer.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Motor_Encoder.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Grove.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_Distance_Sensor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/LED.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_Button.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Motor_Position.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Grove_IR.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_Motors.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Grove_Light_Sensor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/gps_reading.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Grove_LED.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_Light_Sensor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/__init__.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_LED.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Grove_US2.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Motor_Follow.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_Blinkers.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Grove_Buzzer.py -> build/bdist.linux-armv7l/egg/Examples
+creating build/bdist.linux-armv7l/egg/Examples/Control_Panel
+copying build/lib.linux-armv7l-2.7/Examples/Control_Panel/control_panel_gui_3.py -> build/bdist.linux-armv7l/egg/Examples/Control_Panel
+copying build/lib.linux-armv7l-2.7/Examples/Control_Panel/__init__.py -> build/bdist.linux-armv7l/egg/Examples/Control_Panel
+copying build/lib.linux-armv7l-2.7/Examples/Grove_US.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Remote_Control.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Motor_Speed.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Motor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Grove_I2C.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/easy_DexEyes.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Read_Info.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib.linux-armv7l-2.7/Examples/Servo.py -> build/bdist.linux-armv7l/egg/Examples
+creating build/bdist.linux-armv7l/egg/mock_package
+copying build/lib.linux-armv7l-2.7/mock_package/distance_sensor.py -> build/bdist.linux-armv7l/egg/mock_package
+copying build/lib.linux-armv7l-2.7/mock_package/__init__.py -> build/bdist.linux-armv7l/egg/mock_package
+copying build/lib.linux-armv7l-2.7/easygopigo3.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/easysensors.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/gopigo3.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Turn.py to Motor_Turn.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Buzzer.py to easy_Buzzer.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Encoder.py to Motor_Encoder.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove.py to Grove.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Distance_Sensor.py to easy_Distance_Sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/LED.py to LED.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Button.py to easy_Button.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Position.py to Motor_Position.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_IR.py to Grove_IR.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Motors.py to easy_Motors.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_Light_Sensor.py to Grove_Light_Sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/gps_reading.py to gps_reading.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_LED.py to Grove_LED.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Light_Sensor.py to easy_Light_Sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_LED.py to easy_LED.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_US2.py to Grove_US2.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Follow.py to Motor_Follow.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Blinkers.py to easy_Blinkers.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_Buzzer.py to Grove_Buzzer.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Control_Panel/control_panel_gui_3.py to control_panel_gui_3.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Control_Panel/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_US.py to Grove_US.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Remote_Control.py to Remote_Control.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Speed.py to Motor_Speed.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor.py to Motor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_I2C.py to Grove_I2C.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_DexEyes.py to easy_DexEyes.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Read_Info.py to Read_Info.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Servo.py to Servo.pyc
+byte-compiling build/bdist.linux-armv7l/egg/mock_package/distance_sensor.py to distance_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/mock_package/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-armv7l/egg/easygopigo3.py to easygopigo3.pyc
+byte-compiling build/bdist.linux-armv7l/egg/easysensors.py to easysensors.pyc
+byte-compiling build/bdist.linux-armv7l/egg/gopigo3.py to gopigo3.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/gopigo3-1.2.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing gopigo3-1.2.0-py2.7.egg
+Copying gopigo3-1.2.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding gopigo3 1.2.0 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/gopigo3-1.2.0-py2.7.egg
+Processing dependencies for gopigo3==1.2.0
+Searching for spidev==3.3
+Best match: spidev 3.3
+Adding spidev 3.3 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Finished processing dependencies for gopigo3==1.2.0
+running install
+running bdist_egg
+running egg_info
+writing gopigo3.egg-info/PKG-INFO
+writing requirements to gopigo3.egg-info/requires.txt
+writing top-level names to gopigo3.egg-info/top_level.txt
+writing dependency_links to gopigo3.egg-info/dependency_links.txt
+reading manifest file 'gopigo3.egg-info/SOURCES.txt'
+writing manifest file 'gopigo3.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+copying gopigo3.py -> build/lib
+copying easygopigo3.py -> build/lib
+copying easysensors.py -> build/lib
+creating build/lib/Examples
+copying Examples/Motor_Turn.py -> build/lib/Examples
+copying Examples/easy_Buzzer.py -> build/lib/Examples
+copying Examples/Motor_Encoder.py -> build/lib/Examples
+copying Examples/Grove.py -> build/lib/Examples
+copying Examples/easy_Distance_Sensor.py -> build/lib/Examples
+copying Examples/LED.py -> build/lib/Examples
+copying Examples/easy_Button.py -> build/lib/Examples
+copying Examples/Motor_Position.py -> build/lib/Examples
+copying Examples/Grove_IR.py -> build/lib/Examples
+copying Examples/easy_Motors.py -> build/lib/Examples
+copying Examples/Grove_Light_Sensor.py -> build/lib/Examples
+copying Examples/gps_reading.py -> build/lib/Examples
+copying Examples/Grove_LED.py -> build/lib/Examples
+copying Examples/easy_Light_Sensor.py -> build/lib/Examples
+copying Examples/__init__.py -> build/lib/Examples
+copying Examples/easy_LED.py -> build/lib/Examples
+copying Examples/Grove_US2.py -> build/lib/Examples
+copying Examples/Motor_Follow.py -> build/lib/Examples
+copying Examples/easy_Blinkers.py -> build/lib/Examples
+copying Examples/Grove_Buzzer.py -> build/lib/Examples
+copying Examples/Grove_US.py -> build/lib/Examples
+copying Examples/Remote_Control.py -> build/lib/Examples
+copying Examples/Motor_Speed.py -> build/lib/Examples
+copying Examples/Motor.py -> build/lib/Examples
+copying Examples/Grove_I2C.py -> build/lib/Examples
+copying Examples/easy_DexEyes.py -> build/lib/Examples
+copying Examples/Read_Info.py -> build/lib/Examples
+copying Examples/Servo.py -> build/lib/Examples
+creating build/lib/mock_package
+copying mock_package/distance_sensor.py -> build/lib/mock_package
+copying mock_package/__init__.py -> build/lib/mock_package
+creating build/lib/Examples/Control_Panel
+copying Examples/Control_Panel/control_panel_gui_3.py -> build/lib/Examples/Control_Panel
+copying Examples/Control_Panel/__init__.py -> build/lib/Examples/Control_Panel
+creating build/bdist.linux-armv7l/egg
+creating build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Motor_Turn.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_Buzzer.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Motor_Encoder.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Grove.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_Distance_Sensor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/LED.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_Button.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Motor_Position.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Grove_IR.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_Motors.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Grove_Light_Sensor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/gps_reading.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Grove_LED.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_Light_Sensor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/__init__.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_LED.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Grove_US2.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Motor_Follow.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_Blinkers.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Grove_Buzzer.py -> build/bdist.linux-armv7l/egg/Examples
+creating build/bdist.linux-armv7l/egg/Examples/Control_Panel
+copying build/lib/Examples/Control_Panel/control_panel_gui_3.py -> build/bdist.linux-armv7l/egg/Examples/Control_Panel
+copying build/lib/Examples/Control_Panel/__init__.py -> build/bdist.linux-armv7l/egg/Examples/Control_Panel
+copying build/lib/Examples/Grove_US.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Remote_Control.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Motor_Speed.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Motor.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Grove_I2C.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/easy_DexEyes.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Read_Info.py -> build/bdist.linux-armv7l/egg/Examples
+copying build/lib/Examples/Servo.py -> build/bdist.linux-armv7l/egg/Examples
+creating build/bdist.linux-armv7l/egg/mock_package
+copying build/lib/mock_package/distance_sensor.py -> build/bdist.linux-armv7l/egg/mock_package
+copying build/lib/mock_package/__init__.py -> build/bdist.linux-armv7l/egg/mock_package
+copying build/lib/easygopigo3.py -> build/bdist.linux-armv7l/egg
+copying build/lib/easysensors.py -> build/bdist.linux-armv7l/egg
+copying build/lib/gopigo3.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Turn.py to Motor_Turn.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Buzzer.py to easy_Buzzer.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Encoder.py to Motor_Encoder.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove.py to Grove.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Distance_Sensor.py to easy_Distance_Sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/LED.py to LED.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Button.py to easy_Button.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Position.py to Motor_Position.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_IR.py to Grove_IR.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Motors.py to easy_Motors.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_Light_Sensor.py to Grove_Light_Sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/gps_reading.py to gps_reading.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_LED.py to Grove_LED.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Light_Sensor.py to easy_Light_Sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/__init__.py to __init__.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_LED.py to easy_LED.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_US2.py to Grove_US2.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Follow.py to Motor_Follow.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_Blinkers.py to easy_Blinkers.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_Buzzer.py to Grove_Buzzer.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Control_Panel/control_panel_gui_3.py to control_panel_gui_3.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Control_Panel/__init__.py to __init__.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_US.py to Grove_US.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Remote_Control.py to Remote_Control.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor_Speed.py to Motor_Speed.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Motor.py to Motor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Grove_I2C.py to Grove_I2C.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/easy_DexEyes.py to easy_DexEyes.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Read_Info.py to Read_Info.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Examples/Servo.py to Servo.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/mock_package/distance_sensor.py to distance_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/mock_package/__init__.py to __init__.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/easygopigo3.py to easygopigo3.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/easysensors.py to easysensors.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/gopigo3.py to gopigo3.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying gopigo3.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/gopigo3-1.2.0-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing gopigo3-1.2.0-py3.5.egg
+Copying gopigo3-1.2.0-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+Adding gopigo3 1.2.0 to easy-install.pth file
+
+Installed /usr/local/lib/python3.5/dist-packages/gopigo3-1.2.0-py3.5.egg
+Processing dependencies for gopigo3==1.2.0
+Searching for spidev==3.3
+Best match: spidev 3.3
+Adding spidev 3.3 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Finished processing dependencies for gopigo3==1.2.0
+cp: cannot create regular file '/home/pi/Desktop/gopigo3_control_panel.desktop': Permission denied
+Installing OpenOCD for GoPiGo3
+Archive:  openocd_compiled.zip
+   creating: openocd_compiled/
+   creating: openocd_compiled/files/
+   creating: openocd_compiled/files/openocd/
+   creating: openocd_compiled/files/openocd/scripts/
+   creating: openocd_compiled/files/openocd/scripts/interface/
+   creating: openocd_compiled/files/openocd/scripts/target/
+  inflating: openocd_compiled/files/openocd/scripts/target/at91samdXX.cfg  
+  inflating: openocd_compiled/files/openocd/scripts/target/swj-dp.tcl  
+  inflating: openocd_compiled/openocd  
+  inflating: openocd_compiled/files/openocd/scripts/interface/rpi1.cfg  
+  inflating: openocd_compiled/files/openocd/scripts/interface/rpi2.cfg  
+[33m--> Start GoPiGo Update.(B[m
+[33m##############################(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 11096  100 11096    0     0  47621      0 --:--:-- --:--:-- --:--:-- 47827
+  _____            _                                
+ |  __ \          | |                               
+ | |  | | _____  _| |_ ___ _ __                     
+ | |  | |/ _ \ \/ / __/ _ \ '__|                    
+ | |__| |  __/>  <| ||  __/ |                       
+ |_____/ \___/_/\_\\__\___|_|          _            
+ |_   _|         | |         | |      (_)           
+   | |  _ __   __| |_   _ ___| |_ _ __ _  ___  ___  
+   | | | '_ \ / _\ | | | / __| __| '__| |/ _ \/ __| 
+  _| |_| | | | (_| | |_| \__ \ |_| |  | |  __/\__ \ 
+ |_____|_| |_|\__,_|\__,_|___/\__|_|  |_|\___||___/ 
+                                                    
+                                                    
+  ______  _____   _____  _____  ______  _____ 
+ |  ____ |     | |_____]   |   |  ____ |     |
+ |_____| |_____| |       __|__ |_____| |_____|
+ 
+[33mWelcome to GoPiGo Installer.(B[m
+Updating GoPiGo for master branch with the following options:
+  --no-dependencies=false
+  --no-update-aptget=false
+  --bypass-rfrtools=true
+  --bypass-python-rfrtools=false
+  --bypass-gui-installation=false
+  --user-local=false
+  --env-local=false
+  --system-wide=true
+Using "master" branch
+Options used for RFR_Tools script: "--system-wide master --use-python3-exe-too --update-aptget --install-deb-deps --install-python-package --install-gui"
+[33mInstalling GoPiGo dependencies. This might take a while..(B[m
+[33mInstalling dependencies for the GoPiGo(B[m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 97%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+build-essential is already the newest version (12.3).
+git is already the newest version (1:2.11.0-3+deb9u4).
+i2c-tools is already the newest version (3.1.2-3).
+libffi-dev is already the newest version (3.2.1-6).
+libi2c-dev is already the newest version (3.1.2-3).
+libnss-mdns is already the newest version (0.10-8).
+python-dev is already the newest version (2.7.13-2).
+python-serial is already the newest version (3.2.1-1).
+python-smbus is already the newest version (3.1.2-3).
+python3-dev is already the newest version (3.5.3-1).
+python3-serial is already the newest version (3.2.1-1).
+python3-smbus is already the newest version (3.1.2-3).
+python-pip is already the newest version (9.0.1-2+rpt2).
+python-rpi.gpio is already the newest version (0.6.5~stretch-1).
+python3-pip is already the newest version (9.0.1-2+rpt2).
+python3-rpi.gpio is already the newest version (0.6.5~stretch-1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[33mDependencies installed for the GoPiGo(B[m
+[33mRemoving blacklist from /etc/modprobe.d/raspi-blacklist.conf . . .(B[m
+I2C already removed from blacklist
+SPI already removed from blacklist
+[33mAdding I2C-dev and SPI-dev in /etc/modules . . .(B[m
+I2C-dev already there
+i2c-bcm2708 already there
+spi-dev already there
+[33mMaking I2C changes in /boot/config.txt . . .(B[m
+The user `pi' is already a member of `i2c'.
+[33mInstalling avrdude for the GoPiGo(B[m
+/home/pi/Dexter/lib/AVRDUDE Found!
+avrdude 5.10 Found
+done with AVRDUDE 
+[33mRemoving "gopigo" to make space for the new one(B[m
+Removing /usr/local/lib/python2.7/dist-packages/GoPiGo-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python2.7/dist-packages/GoPiGo-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/GoPiGo-0.0.0-py3.5.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/GoPiGo-0.0.0-py3.5.egg egg
+running install
+running bdist_egg
+running egg_info
+creating GoPiGo.egg-info
+writing requirements to GoPiGo.egg-info/requires.txt
+writing GoPiGo.egg-info/PKG-INFO
+writing top-level names to GoPiGo.egg-info/top_level.txt
+writing dependency_links to GoPiGo.egg-info/dependency_links.txt
+writing manifest file 'GoPiGo.egg-info/SOURCES.txt'
+reading manifest file 'GoPiGo.egg-info/SOURCES.txt'
+writing manifest file 'GoPiGo.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+copying gopigo.py -> build/lib.linux-armv7l-2.7
+copying easygopigo.py -> build/lib.linux-armv7l-2.7
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/easygopigo.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/gopigo.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/easygopigo.py to easygopigo.pyc
+byte-compiling build/bdist.linux-armv7l/egg/gopigo.py to gopigo.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/GoPiGo-0.0.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing GoPiGo-0.0.0-py2.7.egg
+Copying GoPiGo-0.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding GoPiGo 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/GoPiGo-0.0.0-py2.7.egg
+Processing dependencies for GoPiGo==0.0.0
+Searching for tornado==5.0.2
+Best match: tornado 5.0.2
+Processing tornado-5.0.2-py2.7-linux-armv7l.egg
+tornado 5.0.2 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/tornado-5.0.2-py2.7-linux-armv7l.egg
+Searching for smbus-cffi==0.5.1
+Best match: smbus-cffi 0.5.1
+Processing smbus_cffi-0.5.1-py2.7-linux-armv7l.egg
+smbus-cffi 0.5.1 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/smbus_cffi-0.5.1-py2.7-linux-armv7l.egg
+Searching for pyusb==1.0.2
+Best match: pyusb 1.0.2
+Processing pyusb-1.0.2-py2.7.egg
+pyusb 1.0.2 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/pyusb-1.0.2-py2.7.egg
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py2.7.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/python_periphery-1.1.0-py2.7.egg
+Searching for future==0.17.1
+Best match: future 0.17.1
+Adding future 0.17.1 to easy-install.pth file
+Installing pasteurize script to /usr/local/bin
+Installing futurize script to /usr/local/bin
+
+Using /usr/local/lib/python2.7/dist-packages
+Searching for singledispatch==3.4.0.3
+Best match: singledispatch 3.4.0.3
+Processing singledispatch-3.4.0.3-py2.7.egg
+singledispatch 3.4.0.3 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/singledispatch-3.4.0.3-py2.7.egg
+Searching for futures==3.2.0
+Best match: futures 3.2.0
+Processing futures-3.2.0-py2.7.egg
+futures 3.2.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/futures-3.2.0-py2.7.egg
+Searching for backports-abc==0.5
+Best match: backports-abc 0.5
+Processing backports_abc-0.5-py2.7.egg
+backports-abc 0.5 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/backports_abc-0.5-py2.7.egg
+Searching for cffi==1.11.5
+Best match: cffi 1.11.5
+Processing cffi-1.11.5-py2.7-linux-armv7l.egg
+cffi 1.11.5 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/cffi-1.11.5-py2.7-linux-armv7l.egg
+Searching for six==1.12.0
+Best match: six 1.12.0
+Adding six 1.12.0 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Searching for pycparser==2.18
+Best match: pycparser 2.18
+Processing pycparser-2.18-py2.7.egg
+pycparser 2.18 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/pycparser-2.18-py2.7.egg
+Finished processing dependencies for GoPiGo==0.0.0
+running install
+running bdist_egg
+running egg_info
+writing requirements to GoPiGo.egg-info/requires.txt
+writing GoPiGo.egg-info/PKG-INFO
+writing dependency_links to GoPiGo.egg-info/dependency_links.txt
+writing top-level names to GoPiGo.egg-info/top_level.txt
+reading manifest file 'GoPiGo.egg-info/SOURCES.txt'
+writing manifest file 'GoPiGo.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+copying gopigo.py -> build/lib
+copying easygopigo.py -> build/lib
+creating build/bdist.linux-armv7l/egg
+copying build/lib/easygopigo.py -> build/bdist.linux-armv7l/egg
+copying build/lib/gopigo.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/easygopigo.py to easygopigo.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/gopigo.py to gopigo.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying GoPiGo.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/GoPiGo-0.0.0-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing GoPiGo-0.0.0-py3.5.egg
+Copying GoPiGo-0.0.0-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+Adding GoPiGo 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python3.5/dist-packages/GoPiGo-0.0.0-py3.5.egg
+Processing dependencies for GoPiGo==0.0.0
+Searching for tornado==5.0.2
+Best match: tornado 5.0.2
+Processing tornado-5.0.2-py3.5-linux-armv7l.egg
+tornado 5.0.2 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/tornado-5.0.2-py3.5-linux-armv7l.egg
+Searching for smbus-cffi==0.5.1
+Best match: smbus-cffi 0.5.1
+Processing smbus_cffi-0.5.1-py3.5-linux-armv7l.egg
+smbus-cffi 0.5.1 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/smbus_cffi-0.5.1-py3.5-linux-armv7l.egg
+Searching for pyusb==1.0.2
+Best match: pyusb 1.0.2
+Processing pyusb-1.0.2-py3.5.egg
+pyusb 1.0.2 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/pyusb-1.0.2-py3.5.egg
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py3.5.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/python_periphery-1.1.0-py3.5.egg
+Searching for future==0.16.0
+Best match: future 0.16.0
+Processing future-0.16.0-py3.5.egg
+future 0.16.0 is already the active version in easy-install.pth
+Installing futurize script to /usr/local/bin
+Installing pasteurize script to /usr/local/bin
+
+Using /usr/local/lib/python3.5/dist-packages/future-0.16.0-py3.5.egg
+Searching for cffi==1.11.5
+Best match: cffi 1.11.5
+Processing cffi-1.11.5-py3.5-linux-armv7l.egg
+cffi 1.11.5 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/cffi-1.11.5-py3.5-linux-armv7l.egg
+Searching for pycparser==2.18
+Best match: pycparser 2.18
+Processing pycparser-2.18-py3.5.egg
+pycparser 2.18 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/pycparser-2.18-py3.5.egg
+Finished processing dependencies for GoPiGo==0.0.0
+[33m--> Start BrickPi3 Update.(B[m
+[33m##############################(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 11815  100 11815    0     0  32901      0 --:--:-- --:--:-- --:--:-- 33002
+  _____            _                                
+ |  __ \          | |                               
+ | |  | | _____  _| |_ ___ _ __                     
+ | |  | |/ _ \ \/ / __/ _ \ '__|                    
+ | |__| |  __/>  <| ||  __/ |                       
+ |_____/ \___/_/\_\\__\___|_|          _            
+ |_   _|         | |         | |      (_)           
+   | |  _ __   __| |_   _ ___| |_ _ __ _  ___  ___  
+   | | | '_ \ / _\ | | | / __| __| '__| |/ _ \/ __| 
+  _| |_| | | | (_| | |_| \__ \ |_| |  | |  __/\__ \ 
+ |_____|_| |_|\__,_|\__,_|___/\__|_|  |_|\___||___/ 
+                                                    
+                                                    
+  ____       _      _    ____  _ _____ 
+ | __ ) _ __(_) ___| | _|  _ \(_)___ / 
+ |  _ \| '__| |/ __| |/ / |_) | | |_ \ 
+ | |_) | |  | | (__|   <|  __/| |___) |
+ |____/|_|  |_|\___|_|\_\_|   |_|____/ 
+ 
+[33mWelcome to BrickPi3 Installer.(B[m
+Updating BrickPi3 for master branch with the following options:
+  --no-dependencies=false
+  --no-update-aptget=false
+  --bypass-rfrtools=true
+  --bypass-python-rfrtools=false
+  --bypass-gui-installation=false
+  --user-local=false
+  --env-local=false
+  --system-wide=true
+Using "master" branch
+Options used for RFR_Tools script: "--system-wide master --use-python3-exe-too --update-aptget --install-deb-deps --install-python-package --install-gui"
+Cloning BrickPi3 repository
+Done cloning BrickPi3 repository
+[33mNo package dependencies for the BrickPi3(B[m
+[33mwiringPi VERSION is 236(B[m
+[33mFOUND WiringPi Version 2.36 No installation needed.(B[m
+[33mRemoving blacklist from /etc/modprobe.d/raspi-blacklist.conf(B[m
+SPI already removed from blacklist
+[33mAdding SPI-dev in /etc/modules(B[m
+spi-dev already there
+[33mMaking SPI changes in /boot/config.txt(B[m
+SPI already enabled
+[33mRemoving "brickpi3" to make space for the new one(B[m
+Removing /usr/local/lib/python2.7/dist-packages/brickpi3-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python2.7/dist-packages/brickpi3-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/brickpi3-0.0.0-py3.5.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/brickpi3-0.0.0-py3.5.egg egg
+running install
+running bdist_egg
+running egg_info
+creating brickpi3.egg-info
+writing requirements to brickpi3.egg-info/requires.txt
+writing brickpi3.egg-info/PKG-INFO
+writing top-level names to brickpi3.egg-info/top_level.txt
+writing dependency_links to brickpi3.egg-info/dependency_links.txt
+writing manifest file 'brickpi3.egg-info/SOURCES.txt'
+reading manifest file 'brickpi3.egg-info/SOURCES.txt'
+writing manifest file 'brickpi3.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+copying brickpi3.py -> build/lib.linux-armv7l-2.7
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/brickpi3.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/brickpi3.py to brickpi3.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/brickpi3-0.0.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing brickpi3-0.0.0-py2.7.egg
+Copying brickpi3-0.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding brickpi3 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/brickpi3-0.0.0-py2.7.egg
+Processing dependencies for brickpi3==0.0.0
+Searching for spidev==3.3
+Best match: spidev 3.3
+Adding spidev 3.3 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Finished processing dependencies for brickpi3==0.0.0
+running install
+running bdist_egg
+running egg_info
+writing requirements to brickpi3.egg-info/requires.txt
+writing top-level names to brickpi3.egg-info/top_level.txt
+writing brickpi3.egg-info/PKG-INFO
+writing dependency_links to brickpi3.egg-info/dependency_links.txt
+reading manifest file 'brickpi3.egg-info/SOURCES.txt'
+writing manifest file 'brickpi3.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+copying brickpi3.py -> build/lib
+creating build/bdist.linux-armv7l/egg
+copying build/lib/brickpi3.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/brickpi3.py to brickpi3.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying brickpi3.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/brickpi3-0.0.0-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing brickpi3-0.0.0-py3.5.egg
+Copying brickpi3-0.0.0-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+Adding brickpi3 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python3.5/dist-packages/brickpi3-0.0.0-py3.5.egg
+Processing dependencies for brickpi3==0.0.0
+Searching for spidev==3.3
+Best match: spidev 3.3
+Adding spidev 3.3 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Finished processing dependencies for brickpi3==0.0.0
+Installing BrickPi3 C++ drivers
+Copying BrickPi3.h and BrickPi3.cpp to /usr/local/include
+Installing OpenOCD for BrickPi3
+Archive:  openocd_compiled.zip
+   creating: openocd_compiled/
+   creating: openocd_compiled/files/
+   creating: openocd_compiled/files/openocd/
+   creating: openocd_compiled/files/openocd/scripts/
+   creating: openocd_compiled/files/openocd/scripts/interface/
+   creating: openocd_compiled/files/openocd/scripts/target/
+  inflating: openocd_compiled/files/openocd/scripts/target/at91samdXX.cfg  
+  inflating: openocd_compiled/files/openocd/scripts/target/swj-dp.tcl  
+  inflating: openocd_compiled/openocd  
+  inflating: openocd_compiled/files/openocd/scripts/interface/rpi1.cfg  
+  inflating: openocd_compiled/files/openocd/scripts/interface/rpi2.cfg  
+[33m--> Start GrovePi Update.(B[m
+[33m-------------------------(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 11885  100 11885    0     0  35331      0 --:--:-- --:--:-- --:--:-- 35477
+  _____            _                                
+ |  __ \          | |                               
+ | |  | | _____  _| |_ ___ _ __                     
+ | |  | |/ _ \ \/ / __/ _ \ '__|                    
+ | |__| |  __/>  <| ||  __/ |                       
+ |_____/ \___/_/\_\\__\___|_|          _            
+ |_   _|         | |         | |      (_)           
+   | |  _ __   __| |_   _ ___| |_ _ __ _  ___  ___  
+   | | | '_ \ / _\ | | | / __| __| '__| |/ _ \/ __| 
+  _| |_| | | | (_| | |_| \__ \ |_| |  | |  __/\__ \ 
+ |_____|_| |_|\__,_|\__,_|___/\__|_|  |_|\___||___/ 
+                                                    
+                                                    
+  _____                    _____ _ 
+ / ____|                  |  __ (_)  
+| |  __ _ __ _____   _____| |__) |   
+| | |_ | '__/ _ \ \ / / _ \  ___/ |  
+| |__| | | | (_) \ V /  __/ |   | |  
+ \_____|_|  \___/ \_/ \___|_|   |_|  
+ 
+[33mWelcome to GrovePi Installer.(B[m
+Updating GrovePi for master branch with the following options:
+  --no-dependencies=false
+  --no-update-aptget=false
+  --bypass-rfrtools=true
+  --bypass-python-rfrtools=false
+  --bypass-gui-installation=false
+  --user-local=false
+  --env-local=false
+  --system-wide=true
+Using "master" branch
+Options used for RFR_Tools script: "--system-wide master --use-python3-exe-too --update-aptget --install-deb-deps --install-python-package --install-gui"
+[33mInstalling GrovePi dependencies. This might take a while..(B[m
+[33mInstalling dependencies for the GrovePi(B[m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 97%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.11.0-3+deb9u4).
+i2c-tools is already the newest version (3.1.2-3).
+libi2c-dev is already the newest version (3.1.2-3).
+python-dev is already the newest version (2.7.13-2).
+python-numpy is already the newest version (1:1.12.1-3).
+python-scipy is already the newest version (0.18.1-2).
+python-serial is already the newest version (3.2.1-1).
+python-setuptools is already the newest version (33.1.1-1).
+python-smbus is already the newest version (3.1.2-3).
+python3-dev is already the newest version (3.5.3-1).
+python3-numpy is already the newest version (1:1.12.1-3).
+python3-scipy is already the newest version (0.18.1-2).
+python3-serial is already the newest version (3.2.1-1).
+python3-setuptools is already the newest version (33.1.1-1).
+python3-smbus is already the newest version (3.1.2-3).
+nodejs is already the newest version (9.11.2-1nodesource1).
+python-pip is already the newest version (9.0.1-2+rpt2).
+python-rpi.gpio is already the newest version (0.6.5~stretch-1).
+python3-pip is already the newest version (9.0.1-2+rpt2).
+python3-rpi.gpio is already the newest version (0.6.5~stretch-1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[33mDependencies for the GrovePi installed(B[m
+Special thanks to Joe Sanford at Tufts University. This script was derived from his work. Thank you Joe!
+[33mAdding I2C-dev and SPI-dev in /etc/modules . . .(B[m
+I2C-dev already present
+i2c-bcm2708 already present
+spi-dev already present
+[33mMaking I2C changes in /boot/config.txt . . .(B[m
+i2c1 already present
+i2c_arm already present
+adduser: The group `i2c' already exists.
+[33mInstalling avrdude for the GrovePi(B[m
+/home/pi/Dexter/lib/AVRDUDE Found!
+avrdude 5.10 Found
+done with AVRDUDE for the GrovePi
+[33mRemoving "grovepi" to make space for the new one(B[m
+Removing /usr/local/lib/python2.7/dist-packages/grovepi-1.0.4-py2.7.egg egg
+Removing /usr/local/lib/python2.7/dist-packages/grovepi-1.0.4-py2.7.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/grovepi-1.0.4-py3.5.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/grovepi-1.0.4-py3.5.egg egg
+Copying to .tmp_modules module ./grove_compass_lib.py
+Copying to .tmp_modules module ./grovepi.py
+Copying to .tmp_modules module ./grove_rflink433mhz_oneway_kit/grove_rflink433mhz.py
+Copying to .tmp_modules module ./grove_i2c_adc/grove_i2c_adc.py
+Copying to .tmp_modules module ./grove_i2c_temp_hum_sensor_mini/grove_i2c_temp_hum_mini.py
+Copying to .tmp_modules module ./grove_i2c_oled_128_64/grove_128_64_oled.py
+Copying to .tmp_modules module ./grove_dht_pro_filter/grove_dht.py
+Copying to .tmp_modules module ./grove_i2c_multichannel_gas_sensor/multichannel_gas_sensor.py
+Copying to .tmp_modules module ./grove_gesture_sensor/grove_gesture_sensor.py
+Copying to .tmp_modules module ./grove_co2_sensor/grove_co2_lib.py
+Copying to .tmp_modules module ./grove_i2c_digital_light_sensor/Adafruit_I2C.py
+Copying to .tmp_modules module ./grove_accelerometer_16g/adxl345.py
+Copying to .tmp_modules module ./grove_chainable_rgb_led/direct_serial_lib/chainable_rgb_direct.py
+Copying to .tmp_modules module ./grove_i2c_color_sensor/grove_i2c_color_sensor.py
+Copying to .tmp_modules module ./grove_mini_motor_driver/grove_mini_motor_driver.py
+Copying to .tmp_modules module ./grove_gps/dextergps.py
+Copying to .tmp_modules module ./grove_hightemperature_sensor/grove_hightemperature_sensor.py
+Copying to .tmp_modules module ./grove_rgb_lcd/grove_rgb_lcd.py
+Copying to .tmp_modules module ./grove_i2c_temp_hum_hdc1000/grove_i2c_temp_hum_hdc1000.py
+Copying to .tmp_modules module ./grove_6axis_acc_compass/lsm303d.py
+Copying to .tmp_modules module ./grove_barometer_sensors/barometric_sensor_bmp180/grove_i2c_barometic_sensor_BMP180.py
+Copying to .tmp_modules module ./grove_barometer_sensors/barometric_sensor_bmp180/Adafruit_I2C.py
+Copying to .tmp_modules module ./grove_barometer_sensors/barometric_sensor_bmp085/grove_barometer_lib.py
+Copying to .tmp_modules module ./grove_barometer_sensors/high_accuracy_hp206c_barometer/hp206c.py
+Copying to .tmp_modules module ./grove_barometer_sensors/high_accuracy_hp206c_barometer/KalmanFilter.py
+Copying to .tmp_modules module ./grove_oled/grove_oled.py
+Copying to .tmp_modules module ./grove_i2c_motor_driver/grove_i2c_motor_driver.py
+running install
+running bdist_egg
+running egg_info
+creating .tmp_modules/grovepi.egg-info
+writing requirements to .tmp_modules/grovepi.egg-info/requires.txt
+writing .tmp_modules/grovepi.egg-info/PKG-INFO
+writing top-level names to .tmp_modules/grovepi.egg-info/top_level.txt
+writing dependency_links to .tmp_modules/grovepi.egg-info/dependency_links.txt
+writing manifest file '.tmp_modules/grovepi.egg-info/SOURCES.txt'
+reading manifest file '.tmp_modules/grovepi.egg-info/SOURCES.txt'
+writing manifest file '.tmp_modules/grovepi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_rgb_lcd.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/multichannel_gas_sensor.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/adxl345.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_dht.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_i2c_barometic_sensor_BMP180.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_compass_lib.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_co2_lib.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/Adafruit_I2C.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_128_64_oled.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_barometer_lib.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/dextergps.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_i2c_motor_driver.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_i2c_temp_hum_hdc1000.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_mini_motor_driver.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/hp206c.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_gesture_sensor.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/lsm303d.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_rflink433mhz.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_i2c_temp_hum_mini.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/chainable_rgb_direct.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_i2c_color_sensor.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_i2c_adc.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_hightemperature_sensor.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/KalmanFilter.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grovepi.py -> build/lib.linux-armv7l-2.7
+copying .tmp_modules/grove_oled.py -> build/lib.linux-armv7l-2.7
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_rgb_lcd.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/multichannel_gas_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/adxl345.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_dht.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_i2c_barometic_sensor_BMP180.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_compass_lib.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_co2_lib.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/Adafruit_I2C.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_128_64_oled.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_barometer_lib.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/dextergps.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_i2c_motor_driver.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_i2c_temp_hum_hdc1000.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_mini_motor_driver.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/hp206c.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_gesture_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/lsm303d.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_rflink433mhz.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_i2c_temp_hum_mini.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/chainable_rgb_direct.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_i2c_color_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_i2c_adc.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_hightemperature_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/KalmanFilter.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grovepi.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/grove_oled.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/grove_rgb_lcd.py to grove_rgb_lcd.pyc
+byte-compiling build/bdist.linux-armv7l/egg/multichannel_gas_sensor.py to multichannel_gas_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/adxl345.py to adxl345.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_dht.py to grove_dht.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_barometic_sensor_BMP180.py to grove_i2c_barometic_sensor_BMP180.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_compass_lib.py to grove_compass_lib.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_co2_lib.py to grove_co2_lib.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Adafruit_I2C.py to Adafruit_I2C.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_128_64_oled.py to grove_128_64_oled.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_barometer_lib.py to grove_barometer_lib.pyc
+byte-compiling build/bdist.linux-armv7l/egg/dextergps.py to dextergps.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_motor_driver.py to grove_i2c_motor_driver.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_temp_hum_hdc1000.py to grove_i2c_temp_hum_hdc1000.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_mini_motor_driver.py to grove_mini_motor_driver.pyc
+byte-compiling build/bdist.linux-armv7l/egg/hp206c.py to hp206c.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_gesture_sensor.py to grove_gesture_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/lsm303d.py to lsm303d.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_rflink433mhz.py to grove_rflink433mhz.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_temp_hum_mini.py to grove_i2c_temp_hum_mini.pyc
+byte-compiling build/bdist.linux-armv7l/egg/chainable_rgb_direct.py to chainable_rgb_direct.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_color_sensor.py to grove_i2c_color_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_adc.py to grove_i2c_adc.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_hightemperature_sensor.py to grove_hightemperature_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/KalmanFilter.py to KalmanFilter.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grovepi.py to grovepi.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_oled.py to grove_oled.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/grovepi-1.0.4-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing grovepi-1.0.4-py2.7.egg
+Copying grovepi-1.0.4-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding grovepi 1.0.4 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/grovepi-1.0.4-py2.7.egg
+Processing dependencies for grovepi==1.0.4
+Searching for smbus-cffi==0.5.1
+Best match: smbus-cffi 0.5.1
+Processing smbus_cffi-0.5.1-py2.7-linux-armv7l.egg
+smbus-cffi 0.5.1 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/smbus_cffi-0.5.1-py2.7-linux-armv7l.egg
+Searching for scipy==0.18.1
+Best match: scipy 0.18.1
+Adding scipy 0.18.1 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Searching for pyserial==3.2.1
+Best match: pyserial 3.2.1
+Adding pyserial 3.2.1 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Searching for numpy==1.12.1
+Best match: numpy 1.12.1
+Adding numpy 1.12.1 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Searching for RPi.GPIO==0.6.5
+Best match: RPi.GPIO 0.6.5
+Adding RPi.GPIO 0.6.5 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Searching for cffi==1.11.5
+Best match: cffi 1.11.5
+Processing cffi-1.11.5-py2.7-linux-armv7l.egg
+cffi 1.11.5 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/cffi-1.11.5-py2.7-linux-armv7l.egg
+Searching for pycparser==2.18
+Best match: pycparser 2.18
+Processing pycparser-2.18-py2.7.egg
+pycparser 2.18 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/pycparser-2.18-py2.7.egg
+Finished processing dependencies for grovepi==1.0.4
+Copying to .tmp_modules module ./grove_compass_lib.py
+Copying to .tmp_modules module ./grovepi.py
+Copying to .tmp_modules module ./grove_rflink433mhz_oneway_kit/grove_rflink433mhz.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_rgb_lcd.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/multichannel_gas_sensor.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/adxl345.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_dht.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_i2c_barometic_sensor_BMP180.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_compass_lib.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_co2_lib.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/Adafruit_I2C.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_128_64_oled.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_barometer_lib.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/dextergps.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_i2c_motor_driver.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_i2c_temp_hum_hdc1000.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_mini_motor_driver.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/hp206c.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_gesture_sensor.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/lsm303d.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_rflink433mhz.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_i2c_temp_hum_mini.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/chainable_rgb_direct.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_i2c_color_sensor.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_i2c_adc.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_hightemperature_sensor.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/KalmanFilter.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grovepi.py
+Copying to .tmp_modules module ./build/lib.linux-armv7l-2.7/grove_oled.py
+Copying to .tmp_modules module ./grove_i2c_adc/grove_i2c_adc.py
+Copying to .tmp_modules module ./grove_i2c_temp_hum_sensor_mini/grove_i2c_temp_hum_mini.py
+Copying to .tmp_modules module ./grove_i2c_oled_128_64/grove_128_64_oled.py
+Copying to .tmp_modules module ./grove_dht_pro_filter/grove_dht.py
+Copying to .tmp_modules module ./grove_i2c_multichannel_gas_sensor/multichannel_gas_sensor.py
+Copying to .tmp_modules module ./grove_gesture_sensor/grove_gesture_sensor.py
+Copying to .tmp_modules module ./grove_co2_sensor/grove_co2_lib.py
+Copying to .tmp_modules module ./grove_i2c_digital_light_sensor/Adafruit_I2C.py
+Copying to .tmp_modules module ./grove_accelerometer_16g/adxl345.py
+Copying to .tmp_modules module ./grove_chainable_rgb_led/direct_serial_lib/chainable_rgb_direct.py
+Copying to .tmp_modules module ./grove_i2c_color_sensor/grove_i2c_color_sensor.py
+Copying to .tmp_modules module ./grove_mini_motor_driver/grove_mini_motor_driver.py
+Copying to .tmp_modules module ./grove_gps/dextergps.py
+Copying to .tmp_modules module ./grove_hightemperature_sensor/grove_hightemperature_sensor.py
+Copying to .tmp_modules module ./grove_rgb_lcd/grove_rgb_lcd.py
+Copying to .tmp_modules module ./grove_i2c_temp_hum_hdc1000/grove_i2c_temp_hum_hdc1000.py
+Copying to .tmp_modules module ./grove_6axis_acc_compass/lsm303d.py
+Copying to .tmp_modules module ./grove_barometer_sensors/barometric_sensor_bmp180/grove_i2c_barometic_sensor_BMP180.py
+Copying to .tmp_modules module ./grove_barometer_sensors/barometric_sensor_bmp180/Adafruit_I2C.py
+Copying to .tmp_modules module ./grove_barometer_sensors/barometric_sensor_bmp085/grove_barometer_lib.py
+Copying to .tmp_modules module ./grove_barometer_sensors/high_accuracy_hp206c_barometer/hp206c.py
+Copying to .tmp_modules module ./grove_barometer_sensors/high_accuracy_hp206c_barometer/KalmanFilter.py
+Copying to .tmp_modules module ./grove_oled/grove_oled.py
+Copying to .tmp_modules module ./grove_i2c_motor_driver/grove_i2c_motor_driver.py
+running install
+running bdist_egg
+running egg_info
+creating .tmp_modules/grovepi.egg-info
+writing requirements to .tmp_modules/grovepi.egg-info/requires.txt
+writing .tmp_modules/grovepi.egg-info/PKG-INFO
+writing dependency_links to .tmp_modules/grovepi.egg-info/dependency_links.txt
+writing top-level names to .tmp_modules/grovepi.egg-info/top_level.txt
+writing manifest file '.tmp_modules/grovepi.egg-info/SOURCES.txt'
+reading manifest file '.tmp_modules/grovepi.egg-info/SOURCES.txt'
+writing manifest file '.tmp_modules/grovepi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+copying .tmp_modules/grove_rgb_lcd.py -> build/lib
+copying .tmp_modules/multichannel_gas_sensor.py -> build/lib
+copying .tmp_modules/adxl345.py -> build/lib
+copying .tmp_modules/grove_dht.py -> build/lib
+copying .tmp_modules/grove_i2c_barometic_sensor_BMP180.py -> build/lib
+copying .tmp_modules/grove_compass_lib.py -> build/lib
+copying .tmp_modules/grove_co2_lib.py -> build/lib
+copying .tmp_modules/Adafruit_I2C.py -> build/lib
+copying .tmp_modules/grove_128_64_oled.py -> build/lib
+copying .tmp_modules/grove_barometer_lib.py -> build/lib
+copying .tmp_modules/dextergps.py -> build/lib
+copying .tmp_modules/grove_i2c_motor_driver.py -> build/lib
+copying .tmp_modules/grove_i2c_temp_hum_hdc1000.py -> build/lib
+copying .tmp_modules/grove_mini_motor_driver.py -> build/lib
+copying .tmp_modules/hp206c.py -> build/lib
+copying .tmp_modules/grove_gesture_sensor.py -> build/lib
+copying .tmp_modules/lsm303d.py -> build/lib
+copying .tmp_modules/grove_rflink433mhz.py -> build/lib
+copying .tmp_modules/grove_i2c_temp_hum_mini.py -> build/lib
+copying .tmp_modules/chainable_rgb_direct.py -> build/lib
+copying .tmp_modules/grove_i2c_color_sensor.py -> build/lib
+copying .tmp_modules/grove_i2c_adc.py -> build/lib
+copying .tmp_modules/grove_hightemperature_sensor.py -> build/lib
+copying .tmp_modules/KalmanFilter.py -> build/lib
+copying .tmp_modules/grovepi.py -> build/lib
+copying .tmp_modules/grove_oled.py -> build/lib
+creating build/bdist.linux-armv7l/egg
+copying build/lib/grove_rgb_lcd.py -> build/bdist.linux-armv7l/egg
+copying build/lib/multichannel_gas_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib/adxl345.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_dht.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_i2c_barometic_sensor_BMP180.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_compass_lib.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_co2_lib.py -> build/bdist.linux-armv7l/egg
+copying build/lib/Adafruit_I2C.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_128_64_oled.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_barometer_lib.py -> build/bdist.linux-armv7l/egg
+copying build/lib/dextergps.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_i2c_motor_driver.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_i2c_temp_hum_hdc1000.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_mini_motor_driver.py -> build/bdist.linux-armv7l/egg
+copying build/lib/hp206c.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_gesture_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib/lsm303d.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_rflink433mhz.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_i2c_temp_hum_mini.py -> build/bdist.linux-armv7l/egg
+copying build/lib/chainable_rgb_direct.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_i2c_color_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_i2c_adc.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_hightemperature_sensor.py -> build/bdist.linux-armv7l/egg
+copying build/lib/KalmanFilter.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grovepi.py -> build/bdist.linux-armv7l/egg
+copying build/lib/grove_oled.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/grove_rgb_lcd.py to grove_rgb_lcd.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/multichannel_gas_sensor.py to multichannel_gas_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/adxl345.py to adxl345.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_dht.py to grove_dht.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_barometic_sensor_BMP180.py to grove_i2c_barometic_sensor_BMP180.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_compass_lib.py to grove_compass_lib.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_co2_lib.py to grove_co2_lib.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Adafruit_I2C.py to Adafruit_I2C.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_128_64_oled.py to grove_128_64_oled.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_barometer_lib.py to grove_barometer_lib.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/dextergps.py to dextergps.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_motor_driver.py to grove_i2c_motor_driver.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_temp_hum_hdc1000.py to grove_i2c_temp_hum_hdc1000.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_mini_motor_driver.py to grove_mini_motor_driver.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/hp206c.py to hp206c.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_gesture_sensor.py to grove_gesture_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/lsm303d.py to lsm303d.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_rflink433mhz.py to grove_rflink433mhz.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_temp_hum_mini.py to grove_i2c_temp_hum_mini.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/chainable_rgb_direct.py to chainable_rgb_direct.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_color_sensor.py to grove_i2c_color_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_i2c_adc.py to grove_i2c_adc.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_hightemperature_sensor.py to grove_hightemperature_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/KalmanFilter.py to KalmanFilter.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grovepi.py to grovepi.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/grove_oled.py to grove_oled.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying .tmp_modules/grovepi.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/grovepi-1.0.4-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing grovepi-1.0.4-py3.5.egg
+Copying grovepi-1.0.4-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+Adding grovepi 1.0.4 to easy-install.pth file
+
+Installed /usr/local/lib/python3.5/dist-packages/grovepi-1.0.4-py3.5.egg
+Processing dependencies for grovepi==1.0.4
+Searching for smbus-cffi==0.5.1
+Best match: smbus-cffi 0.5.1
+Processing smbus_cffi-0.5.1-py3.5-linux-armv7l.egg
+smbus-cffi 0.5.1 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/smbus_cffi-0.5.1-py3.5-linux-armv7l.egg
+Searching for scipy==0.18.1
+Best match: scipy 0.18.1
+Adding scipy 0.18.1 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for pyserial==3.2.1
+Best match: pyserial 3.2.1
+Adding pyserial 3.2.1 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for numpy==1.12.1
+Best match: numpy 1.12.1
+Adding numpy 1.12.1 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for RPi.GPIO==0.6.5
+Best match: RPi.GPIO 0.6.5
+Adding RPi.GPIO 0.6.5 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for cffi==1.11.5
+Best match: cffi 1.11.5
+Processing cffi-1.11.5-py3.5-linux-armv7l.egg
+cffi 1.11.5 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/cffi-1.11.5-py3.5-linux-armv7l.egg
+Searching for pycparser==2.18
+Best match: pycparser 2.18
+Processing pycparser-2.18-py3.5.egg
+pycparser 2.18 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/pycparser-2.18-py3.5.egg
+Finished processing dependencies for grovepi==1.0.4
+[33m--> Start PivotPi Update.(B[m
+[33m-------------------------(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 12272  100 12272    0     0  48512      0 --:--:-- --:--:-- --:--:-- 48698
+  _____            _                                
+ |  __ \          | |                               
+ | |  | | _____  _| |_ ___ _ __                     
+ | |  | |/ _ \ \/ / __/ _ \ '__|                    
+ | |__| |  __/>  <| ||  __/ |                       
+ |_____/ \___/_/\_\\__\___|_|          _            
+ |_   _|         | |         | |      (_)           
+   | |  _ __   __| |_   _ ___| |_ _ __ _  ___  ___  
+   | | | '_ \ / _\ | | | / __| __| '__| |/ _ \/ __| 
+  _| |_| | | | (_| | |_| \__ \ |_| |  | |  __/\__ \ 
+ |_____|_| |_|\__,_|\__,_|___/\__|_|  |_|\___||___/ 
+                                                    
+                                                    
+  ____  _            _   ____  _ 
+ |  _ \(_)_   _____ | |_|  _ \(_)
+ | |_) | \ \ / / _ \| __| |_) | |
+ |  __/| |\ V / (_) | |_|  __/| |
+ |_|   |_| \_/ \___/ \__|_|   |_|
+
+[33mWelcome to PivotPi Installer.(B[m
+Updating PivotPi for master branch with the following options:
+  --no-dependencies=false
+  --no-update-aptget=false
+  --bypass-rfrtools=true
+  --bypass-python-rfrtools=false
+  --bypass-gui-installation=false
+  --user-local=false
+  --env-local=false
+  --system-wide=true
+Using "master" branch
+Options used for RFR_Tools script: "--system-wide master --use-python3-exe-too --update-aptget --install-deb-deps --install-python-package --install-gui"
+Removing blacklist from /etc/modprobe.d/raspi-blacklist.conf . . .
+I2C not present or removed from blacklist
+SPI not present or removed from blacklist
+Adding I2C-dev and i2c-bcm2708 in /etc/modules . . .
+I2C-dev already present
+i2c-bcm2708 already present
+Making I2C changes in /boot/config.txt . . .
+i2c1 already present
+i2c_arm already present
+[33mConfiguring interface for PivotPi and installing python package. This might take a while..(B[m
+Removing blacklist from /etc/modprobe.d/raspi-blacklist.conf . . .
+I2C not present or removed from blacklist
+SPI not present or removed from blacklist
+Adding I2C-dev and i2c-bcm2708 in /etc/modules . . .
+I2C-dev already present
+i2c-bcm2708 already present
+Making I2C changes in /boot/config.txt . . .
+i2c1 already present
+i2c_arm already present
+[33mRemoving "pivotpi" to make space for the new one(B[m
+Removing /usr/local/lib/python2.7/dist-packages/pivotpi-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python2.7/dist-packages/pivotpi-0.0.0-py2.7.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/pivotpi-0.0.0-py3.5.egg egg
+Removing /usr/local/lib/python3.5/dist-packages/pivotpi-0.0.0-py3.5.egg egg
+running install
+running bdist_egg
+running egg_info
+creating pivotpi.egg-info
+writing pivotpi.egg-info/PKG-INFO
+writing top-level names to pivotpi.egg-info/top_level.txt
+writing dependency_links to pivotpi.egg-info/dependency_links.txt
+writing manifest file 'pivotpi.egg-info/SOURCES.txt'
+reading manifest file 'pivotpi.egg-info/SOURCES.txt'
+writing manifest file 'pivotpi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+copying pivotpi.py -> build/lib.linux-armv7l-2.7
+copying PCA9685.py -> build/lib.linux-armv7l-2.7
+copying I2C.py -> build/lib.linux-armv7l-2.7
+copying Platform.py -> build/lib.linux-armv7l-2.7
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/I2C.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/pivotpi.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/Platform.py -> build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/PCA9685.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/I2C.py to I2C.pyc
+byte-compiling build/bdist.linux-armv7l/egg/pivotpi.py to pivotpi.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Platform.py to Platform.pyc
+byte-compiling build/bdist.linux-armv7l/egg/PCA9685.py to PCA9685.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/pivotpi-0.0.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing pivotpi-0.0.0-py2.7.egg
+Copying pivotpi-0.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding pivotpi 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/pivotpi-0.0.0-py2.7.egg
+Processing dependencies for pivotpi==0.0.0
+Finished processing dependencies for pivotpi==0.0.0
+running install
+running bdist_egg
+running egg_info
+writing pivotpi.egg-info/PKG-INFO
+writing dependency_links to pivotpi.egg-info/dependency_links.txt
+writing top-level names to pivotpi.egg-info/top_level.txt
+reading manifest file 'pivotpi.egg-info/SOURCES.txt'
+writing manifest file 'pivotpi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+copying pivotpi.py -> build/lib
+copying PCA9685.py -> build/lib
+copying I2C.py -> build/lib
+copying Platform.py -> build/lib
+creating build/bdist.linux-armv7l/egg
+copying build/lib/I2C.py -> build/bdist.linux-armv7l/egg
+copying build/lib/pivotpi.py -> build/bdist.linux-armv7l/egg
+copying build/lib/Platform.py -> build/bdist.linux-armv7l/egg
+copying build/lib/PCA9685.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/I2C.py to I2C.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/pivotpi.py to pivotpi.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/Platform.py to Platform.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/PCA9685.py to PCA9685.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying pivotpi.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/pivotpi-0.0.0-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing pivotpi-0.0.0-py3.5.egg
+Copying pivotpi-0.0.0-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+Adding pivotpi 0.0.0 to easy-install.pth file
+
+Installed /usr/local/lib/python3.5/dist-packages/pivotpi-0.0.0-py3.5.egg
+Processing dependencies for pivotpi==0.0.0
+Finished processing dependencies for pivotpi==0.0.0
+[33m--> Start DI Sensors Update.(B[m
+[33m-------------------------(B[m
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 11416  100 11416    0     0  39414      0 --:--:-- --:--:-- --:--:-- 39501
+  _____            _                                
+ |  __ \          | |                               
+ | |  | | _____  _| |_ ___ _ __                     
+ | |  | |/ _ \ \/ / __/ _ \ '__|                    
+ | |__| |  __/>  <| ||  __/ |                       
+ |_____/ \___/_/\_\\__\___|_|          _            
+ |_   _|         | |         | |      (_)           
+   | |  _ __   __| |_   _ ___| |_ _ __ _  ___  ___  
+   | | | '_ \ / _\ | | | / __| __| '__| |/ _ \/ __| 
+  _| |_| | | | (_| | |_| \__ \ |_| |  | |  __/\__ \ 
+ |_____|_| |_|\__,_|\__,_|___/\__|_|  |_|\___||___/ 
+                                                    
+                                                    
+  _____ _____      _____                            
+ |  __ \_   _|    / ____|                           
+ | |  | || |_____| (___   ___ _ __  ___  ___  _ __ ___ 
+ | |  | || |______\___ \ / _ \ '_ \/ __|/ _ \| '__/ __|
+ | |__| || |_     ____) |  __/ | | \__ \ (_) | |  \__ \ 
+ |_____/_____|   |_____/ \___|_| |_|___/\___/|_|  |___/
+[33mWelcome to DI_Sensors Installer.(B[m
+Updating DI_Sensors for master branch with the following options:
+  --no-dependencies=false
+  --no-update-aptget=false
+  --bypass-rfrtools=true
+  --bypass-python-rfrtools=false
+  --bypass-gui-installation=false
+  --user-local=false
+  --env-local=false
+  --system-wide=true
+Using "master" branch
+Options used for RFR_Tools script: "--system-wide master --use-python3-exe-too --update-aptget --install-deb-deps --install-python-package --install-gui"
+[33mRemoving "di_sensors" and "line_follower" to make space for new ones(B[m
+Removing /usr/local/lib/python2.7/dist-packages/DI_Sensors-1.0.0-py2.7.egg/di_sensors egg
+Removing /usr/local/lib/python2.7/dist-packages/DI_Sensors-1.0.0-py2.7.egg/di_sensors egg
+Removing /usr/local/lib/python3.5/dist-packages/DI_Sensors-1.0.0-py3.5.egg/di_sensors egg
+Removing /usr/local/lib/python3.5/dist-packages/DI_Sensors-1.0.0-py3.5.egg/di_sensors egg
+Removing /usr/local/lib/python2.7/dist-packages/Line_Follower-1.0.0-py2.7.egg/line_follower egg
+Removing /usr/local/lib/python2.7/dist-packages/Line_Follower-1.0.0-py2.7.egg/line_follower egg
+Removing /usr/local/lib/python3.5/dist-packages/Line_Follower-1.0.0-py3.5.egg/line_follower egg
+Removing /usr/local/lib/python3.5/dist-packages/Line_Follower-1.0.0-py3.5.egg/line_follower egg
+running install
+running bdist_egg
+running egg_info
+creating DI_Sensors.egg-info
+writing requirements to DI_Sensors.egg-info/requires.txt
+writing DI_Sensors.egg-info/PKG-INFO
+writing top-level names to DI_Sensors.egg-info/top_level.txt
+writing dependency_links to DI_Sensors.egg-info/dependency_links.txt
+writing manifest file 'DI_Sensors.egg-info/SOURCES.txt'
+reading manifest file 'DI_Sensors.egg-info/SOURCES.txt'
+writing manifest file 'DI_Sensors.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+creating build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/easy_mutex.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/easy_light_color_sensor.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/VL53L0X.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/easy_temp_hum_press.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/DHT.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/distance_sensor.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/BME280.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/line_follower.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/__init__.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/PCA9570.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/TCS34725.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/easy_distance_sensor.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/temp_hum_press.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/light_color_sensor.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/dexter_i2c.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/easy_line_follower.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/inertial_measurement_unit.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/easy_inertial_measurement_unit.py -> build/lib.linux-armv7l-2.7/di_sensors
+copying di_sensors/BNO055.py -> build/lib.linux-armv7l-2.7/di_sensors
+creating build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/grove_rgb_lcd.py -> build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/example.py -> build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/example3.py -> build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/__init__.py -> build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/example2.py -> build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+creating build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/easy_mutex.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/easy_light_color_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/VL53L0X.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/easy_temp_hum_press.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/DHT.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/distance_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/BME280.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/line_follower.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/__init__.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/PCA9570.py -> build/bdist.linux-armv7l/egg/di_sensors
+creating build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd/grove_rgb_lcd.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd/example.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd/example3.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd/__init__.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib.linux-armv7l-2.7/di_sensors/grove_rgb_lcd/example2.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib.linux-armv7l-2.7/di_sensors/TCS34725.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/easy_distance_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/temp_hum_press.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/light_color_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/dexter_i2c.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/easy_line_follower.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/inertial_measurement_unit.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/easy_inertial_measurement_unit.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib.linux-armv7l-2.7/di_sensors/BNO055.py -> build/bdist.linux-armv7l/egg/di_sensors
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_mutex.py to easy_mutex.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_light_color_sensor.py to easy_light_color_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/VL53L0X.py to VL53L0X.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_temp_hum_press.py to easy_temp_hum_press.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/DHT.py to DHT.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/distance_sensor.py to distance_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/BME280.py to BME280.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/line_follower.py to line_follower.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/PCA9570.py to PCA9570.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/grove_rgb_lcd.py to grove_rgb_lcd.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/example.py to example.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/example3.py to example3.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/example2.py to example2.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/TCS34725.py to TCS34725.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_distance_sensor.py to easy_distance_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/temp_hum_press.py to temp_hum_press.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/light_color_sensor.py to light_color_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/dexter_i2c.py to dexter_i2c.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_line_follower.py to easy_line_follower.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/inertial_measurement_unit.py to inertial_measurement_unit.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_inertial_measurement_unit.py to easy_inertial_measurement_unit.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/BNO055.py to BNO055.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/DI_Sensors-1.0.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing DI_Sensors-1.0.0-py2.7.egg
+Removing /usr/local/lib/python2.7/dist-packages/DI_Sensors-1.0.0-py2.7.egg
+Copying DI_Sensors-1.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+DI-Sensors 1.0.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python2.7/dist-packages/DI_Sensors-1.0.0-py2.7.egg
+Processing dependencies for DI-Sensors==1.0.0
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py2.7.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/python_periphery-1.1.0-py2.7.egg
+Finished processing dependencies for DI-Sensors==1.0.0
+running install
+running bdist_egg
+running egg_info
+writing dependency_links to DI_Sensors.egg-info/dependency_links.txt
+writing requirements to DI_Sensors.egg-info/requires.txt
+writing DI_Sensors.egg-info/PKG-INFO
+writing top-level names to DI_Sensors.egg-info/top_level.txt
+reading manifest file 'DI_Sensors.egg-info/SOURCES.txt'
+writing manifest file 'DI_Sensors.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+creating build/lib/di_sensors
+copying di_sensors/easy_mutex.py -> build/lib/di_sensors
+copying di_sensors/easy_light_color_sensor.py -> build/lib/di_sensors
+copying di_sensors/VL53L0X.py -> build/lib/di_sensors
+copying di_sensors/easy_temp_hum_press.py -> build/lib/di_sensors
+copying di_sensors/DHT.py -> build/lib/di_sensors
+copying di_sensors/distance_sensor.py -> build/lib/di_sensors
+copying di_sensors/BME280.py -> build/lib/di_sensors
+copying di_sensors/line_follower.py -> build/lib/di_sensors
+copying di_sensors/__init__.py -> build/lib/di_sensors
+copying di_sensors/PCA9570.py -> build/lib/di_sensors
+copying di_sensors/TCS34725.py -> build/lib/di_sensors
+copying di_sensors/easy_distance_sensor.py -> build/lib/di_sensors
+copying di_sensors/temp_hum_press.py -> build/lib/di_sensors
+copying di_sensors/light_color_sensor.py -> build/lib/di_sensors
+copying di_sensors/dexter_i2c.py -> build/lib/di_sensors
+copying di_sensors/easy_line_follower.py -> build/lib/di_sensors
+copying di_sensors/inertial_measurement_unit.py -> build/lib/di_sensors
+copying di_sensors/easy_inertial_measurement_unit.py -> build/lib/di_sensors
+copying di_sensors/BNO055.py -> build/lib/di_sensors
+creating build/lib/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/grove_rgb_lcd.py -> build/lib/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/example.py -> build/lib/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/example3.py -> build/lib/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/__init__.py -> build/lib/di_sensors/grove_rgb_lcd
+copying di_sensors/grove_rgb_lcd/example2.py -> build/lib/di_sensors/grove_rgb_lcd
+creating build/bdist.linux-armv7l/egg
+creating build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/easy_mutex.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/easy_light_color_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/VL53L0X.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/easy_temp_hum_press.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/DHT.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/distance_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/BME280.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/line_follower.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/__init__.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/PCA9570.py -> build/bdist.linux-armv7l/egg/di_sensors
+creating build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib/di_sensors/grove_rgb_lcd/grove_rgb_lcd.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib/di_sensors/grove_rgb_lcd/example.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib/di_sensors/grove_rgb_lcd/example3.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib/di_sensors/grove_rgb_lcd/__init__.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib/di_sensors/grove_rgb_lcd/example2.py -> build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd
+copying build/lib/di_sensors/TCS34725.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/easy_distance_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/temp_hum_press.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/light_color_sensor.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/dexter_i2c.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/easy_line_follower.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/inertial_measurement_unit.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/easy_inertial_measurement_unit.py -> build/bdist.linux-armv7l/egg/di_sensors
+copying build/lib/di_sensors/BNO055.py -> build/bdist.linux-armv7l/egg/di_sensors
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_mutex.py to easy_mutex.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_light_color_sensor.py to easy_light_color_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/VL53L0X.py to VL53L0X.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_temp_hum_press.py to easy_temp_hum_press.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/DHT.py to DHT.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/distance_sensor.py to distance_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/BME280.py to BME280.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/line_follower.py to line_follower.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/__init__.py to __init__.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/PCA9570.py to PCA9570.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/grove_rgb_lcd.py to grove_rgb_lcd.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/example.py to example.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/example3.py to example3.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/__init__.py to __init__.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/grove_rgb_lcd/example2.py to example2.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/TCS34725.py to TCS34725.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_distance_sensor.py to easy_distance_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/temp_hum_press.py to temp_hum_press.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/light_color_sensor.py to light_color_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/dexter_i2c.py to dexter_i2c.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_line_follower.py to easy_line_follower.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/inertial_measurement_unit.py to inertial_measurement_unit.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/easy_inertial_measurement_unit.py to easy_inertial_measurement_unit.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/di_sensors/BNO055.py to BNO055.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying DI_Sensors.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/DI_Sensors-1.0.0-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing DI_Sensors-1.0.0-py3.5.egg
+Removing /usr/local/lib/python3.5/dist-packages/DI_Sensors-1.0.0-py3.5.egg
+Copying DI_Sensors-1.0.0-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+DI-Sensors 1.0.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python3.5/dist-packages/DI_Sensors-1.0.0-py3.5.egg
+Processing dependencies for DI-Sensors==1.0.0
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py3.5.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/python_periphery-1.1.0-py3.5.egg
+Finished processing dependencies for DI-Sensors==1.0.0
+running install
+running bdist_egg
+running egg_info
+creating Line_Follower.egg-info
+writing requirements to Line_Follower.egg-info/requires.txt
+writing Line_Follower.egg-info/PKG-INFO
+writing top-level names to Line_Follower.egg-info/top_level.txt
+writing dependency_links to Line_Follower.egg-info/dependency_links.txt
+writing manifest file 'Line_Follower.egg-info/SOURCES.txt'
+reading manifest file 'Line_Follower.egg-info/SOURCES.txt'
+writing manifest file 'Line_Follower.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+creating build/lib.linux-armv7l-2.7/line_follower
+copying line_follower/__init__.py -> build/lib.linux-armv7l-2.7/line_follower
+copying line_follower/line_sensor.py -> build/lib.linux-armv7l-2.7/line_follower
+copying line_follower/scratch_line.py -> build/lib.linux-armv7l-2.7/line_follower
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+creating build/bdist.linux-armv7l/egg/line_follower
+copying build/lib.linux-armv7l-2.7/line_follower/line_sensor.py -> build/bdist.linux-armv7l/egg/line_follower
+copying build/lib.linux-armv7l-2.7/line_follower/__init__.py -> build/bdist.linux-armv7l/egg/line_follower
+copying build/lib.linux-armv7l-2.7/line_follower/scratch_line.py -> build/bdist.linux-armv7l/egg/line_follower
+byte-compiling build/bdist.linux-armv7l/egg/line_follower/line_sensor.py to line_sensor.pyc
+byte-compiling build/bdist.linux-armv7l/egg/line_follower/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-armv7l/egg/line_follower/scratch_line.py to scratch_line.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/Line_Follower-1.0.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing Line_Follower-1.0.0-py2.7.egg
+Removing /usr/local/lib/python2.7/dist-packages/Line_Follower-1.0.0-py2.7.egg
+Copying Line_Follower-1.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Line-Follower 1.0.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python2.7/dist-packages/Line_Follower-1.0.0-py2.7.egg
+Processing dependencies for Line-Follower==1.0.0
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py2.7.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python2.7/dist-packages/python_periphery-1.1.0-py2.7.egg
+Finished processing dependencies for Line-Follower==1.0.0
+running install
+running bdist_egg
+running egg_info
+writing top-level names to Line_Follower.egg-info/top_level.txt
+writing dependency_links to Line_Follower.egg-info/dependency_links.txt
+writing requirements to Line_Follower.egg-info/requires.txt
+writing Line_Follower.egg-info/PKG-INFO
+reading manifest file 'Line_Follower.egg-info/SOURCES.txt'
+writing manifest file 'Line_Follower.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build/lib
+creating build/lib/line_follower
+copying line_follower/__init__.py -> build/lib/line_follower
+copying line_follower/line_sensor.py -> build/lib/line_follower
+copying line_follower/scratch_line.py -> build/lib/line_follower
+creating build/bdist.linux-armv7l/egg
+creating build/bdist.linux-armv7l/egg/line_follower
+copying build/lib/line_follower/line_sensor.py -> build/bdist.linux-armv7l/egg/line_follower
+copying build/lib/line_follower/__init__.py -> build/bdist.linux-armv7l/egg/line_follower
+copying build/lib/line_follower/scratch_line.py -> build/bdist.linux-armv7l/egg/line_follower
+byte-compiling build/bdist.linux-armv7l/egg/line_follower/line_sensor.py to line_sensor.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/line_follower/__init__.py to __init__.cpython-35.pyc
+byte-compiling build/bdist.linux-armv7l/egg/line_follower/scratch_line.py to scratch_line.cpython-35.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/requires.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying Line_Follower.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/Line_Follower-1.0.0-py3.5.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing Line_Follower-1.0.0-py3.5.egg
+Removing /usr/local/lib/python3.5/dist-packages/Line_Follower-1.0.0-py3.5.egg
+Copying Line_Follower-1.0.0-py3.5.egg to /usr/local/lib/python3.5/dist-packages
+Line-Follower 1.0.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python3.5/dist-packages/Line_Follower-1.0.0-py3.5.egg
+Processing dependencies for Line-Follower==1.0.0
+Searching for python-periphery==1.1.0
+Best match: python-periphery 1.1.0
+Processing python_periphery-1.1.0-py3.5.egg
+python-periphery 1.1.0 is already the active version in easy-install.pth
+
+Using /usr/local/lib/python3.5/dist-packages/python_periphery-1.1.0-py3.5.egg
+Finished processing dependencies for Line-Follower==1.0.0
+[33mConfiguring the red line follower in DI_Sensors installation(B[m
+[33mDone configuring the red line follower in DI_Sensors installation(B[m
+Detected robot: GoPiGo3
+[33m--> Done updating Dexter Industries Github repos!(B[m
+[33m--> Enable LRC Infrared Control on Pi.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 97%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package 'monit' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+WELCOME TO IR RECEIVER SETUP FOR THE GOPIGO.
+ 
+Copying Config Files
+====================
+Lirc files copied
+/home/pi/Dexter/GoPiGo/Software/Python/ir_remote_control/server /home/pi/di_update/Raspbian_For_Robots
+running install
+running bdist_egg
+running egg_info
+creating ir_receiver.egg-info
+writing ir_receiver.egg-info/PKG-INFO
+writing top-level names to ir_receiver.egg-info/top_level.txt
+writing dependency_links to ir_receiver.egg-info/dependency_links.txt
+writing manifest file 'ir_receiver.egg-info/SOURCES.txt'
+reading manifest file 'ir_receiver.egg-info/SOURCES.txt'
+writing manifest file 'ir_receiver.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-armv7l/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-armv7l-2.7
+copying ir_receiver.py -> build/lib.linux-armv7l-2.7
+creating build/bdist.linux-armv7l
+creating build/bdist.linux-armv7l/egg
+copying build/lib.linux-armv7l-2.7/ir_receiver.py -> build/bdist.linux-armv7l/egg
+byte-compiling build/bdist.linux-armv7l/egg/ir_receiver.py to ir_receiver.pyc
+creating build/bdist.linux-armv7l/egg/EGG-INFO
+copying ir_receiver.egg-info/PKG-INFO -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying ir_receiver.egg-info/SOURCES.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying ir_receiver.egg-info/dependency_links.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+copying ir_receiver.egg-info/top_level.txt -> build/bdist.linux-armv7l/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/ir_receiver-0.0.0-py2.7.egg' and adding 'build/bdist.linux-armv7l/egg' to it
+removing 'build/bdist.linux-armv7l/egg' (and everything under it)
+Processing ir_receiver-0.0.0-py2.7.egg
+Removing /usr/local/lib/python2.7/dist-packages/ir_receiver-0.0.0-py2.7.egg
+Copying ir_receiver-0.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+ir-receiver 0.0.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python2.7/dist-packages/ir_receiver-0.0.0-py2.7.egg
+Processing dependencies for ir-receiver==0.0.0
+Finished processing dependencies for ir-receiver==0.0.0
+/home/pi/di_update/Raspbian_For_Robots
+[33m--> Update the background image on LXE Desktop.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> Set up noVNC(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> Clone noVNC.(B[m
+[33m--> install noVNC.(B[m
+[33m--> =======================================(B[m
+Cloning into 'noVNC'...
+remote: Enumerating objects: 191, done.[K
+remote: Counting objects:   0% (1/191)   [Kremote: Counting objects:   1% (2/191)   [Kremote: Counting objects:   2% (4/191)   [Kremote: Counting objects:   3% (6/191)   [Kremote: Counting objects:   4% (8/191)   [Kremote: Counting objects:   5% (10/191)   [Kremote: Counting objects:   6% (12/191)   [Kremote: Counting objects:   7% (14/191)   [Kremote: Counting objects:   8% (16/191)   [Kremote: Counting objects:   9% (18/191)   [Kremote: Counting objects:  10% (20/191)   [Kremote: Counting objects:  11% (22/191)   [Kremote: Counting objects:  12% (23/191)   [Kremote: Counting objects:  13% (25/191)   [Kremote: Counting objects:  14% (27/191)   [Kremote: Counting objects:  15% (29/191)   [Kremote: Counting objects:  16% (31/191)   [Kremote: Counting objects:  17% (33/191)   [Kremote: Counting objects:  18% (35/191)   [Kremote: Counting objects:  19% (37/191)   [Kremote: Counting objects:  20% (39/191)   [Kremote: Counting objects:  21% (41/191)   [Kremote: Counting objects:  22% (43/191)   [Kremote: Counting objects:  23% (44/191)   [Kremote: Counting objects:  24% (46/191)   [Kremote: Counting objects:  25% (48/191)   [Kremote: Counting objects:  26% (50/191)   [Kremote: Counting objects:  27% (52/191)   [Kremote: Counting objects:  28% (54/191)   [Kremote: Counting objects:  29% (56/191)   [Kremote: Counting objects:  30% (58/191)   [Kremote: Counting objects:  31% (60/191)   [Kremote: Counting objects:  32% (62/191)   [Kremote: Counting objects:  33% (64/191)   [Kremote: Counting objects:  34% (65/191)   [Kremote: Counting objects:  35% (67/191)   [Kremote: Counting objects:  36% (69/191)   [Kremote: Counting objects:  37% (71/191)   [Kremote: Counting objects:  38% (73/191)   [Kremote: Counting objects:  39% (75/191)   [Kremote: Counting objects:  40% (77/191)   [Kremote: Counting objects:  41% (79/191)   [Kremote: Counting objects:  42% (81/191)   [Kremote: Counting objects:  43% (83/191)   [Kremote: Counting objects:  44% (85/191)   [Kremote: Counting objects:  45% (86/191)   remote: Counting objects:  46% (88/191)   [Kremote: Counting objects:  47% (90/191)   [Kremote: Counting objects:  48% (92/191)   [Kremote: Counting objects:  49% (94/191)   [Kremote: Counting objects:  50% (96/191)   [Kremote: Counting objects:  51% (98/191)   [Kremote: Counting objects:  52% (100/191)   [Kremote: Counting objects:  53% (102/191)   [Kremote: Counting objects:  54% (104/191)   [Kremote: Counting objects:  55% (106/191)   [Kremote: Counting objects:  56% (107/191)   [Kremote: Counting objects:  57% (109/191)   [Kremote: Counting objects:  58% (111/191)   [Kremote: Counting objects:  59% (113/191)   [Kremote: Counting objects:  60% (115/191)   [Kremote: Counting objects:  61% (117/191)   [Kremote: Counting objects:  62% (119/191)   [Kremote: Counting objects:  63% (121/191)   [Kremote: Counting objects:  64% (123/191)   [Kremote: Counting objects:  65% (125/191)   [Kremote: Counting objects:  66% (127/191)   [Kremote: Counting objects:  67% (128/191)   [Kremote: Counting objects:  68% (130/191)   [Kremote: Counting objects:  69% (132/191)   [Kremote: Counting objects:  70% (134/191)   [Kremote: Counting objects:  71% (136/191)   [Kremote: Counting objects:  72% (138/191)   [Kremote: Counting objects:  73% (140/191)   [Kremote: Counting objects:  74% (142/191)   [Kremote: Counting objects:  75% (144/191)   [Kremote: Counting objects:  76% (146/191)   [Kremote: Counting objects:  77% (148/191)   [Kremote: Counting objects:  78% (149/191)   [Kremote: Counting objects:  79% (151/191)   [Kremote: Counting objects:  80% (153/191)   [Kremote: Counting objects:  81% (155/191)   [Kremote: Counting objects:  82% (157/191)   [Kremote: Counting objects:  83% (159/191)   [Kremote: Counting objects:  84% (161/191)   [Kremote: Counting objects:  85% (163/191)   [Kremote: Counting objects:  86% (165/191)   [Kremote: Counting objects:  87% (167/191)   [Kremote: Counting objects:  88% (169/191)   [Kremote: Counting objects:  89% (170/191)   [Kremote: Counting objects:  90% (172/191)   [Kremote: Counting objects:  91% (174/191)   [Kremote: Counting objects:  92% (176/191)   [Kremote: Counting objects:  93% (178/191)   [Kremote: Counting objects:  94% (180/191)   [Kremote: Counting objects:  95% (182/191)   [Kremote: Counting objects:  96% (184/191)   [Kremote: Counting objects:  97% (186/191)   [Kremote: Counting objects:  98% (188/191)   [Kremote: Counting objects:  99% (190/191)   [Kremote: Counting objects: 100% (191/191)   [Kremote: Counting objects: 100% (191/191), done.[K
+remote: Compressing objects:   0% (1/168)   [Kremote: Compressing objects:   1% (2/168)   [Kremote: Compressing objects:   2% (4/168)   [Kremote: Compressing objects:   3% (6/168)   [Kremote: Compressing objects:   4% (7/168)   [Kremote: Compressing objects:   5% (9/168)   [Kremote: Compressing objects:   6% (11/168)   [Kremote: Compressing objects:   7% (12/168)   [Kremote: Compressing objects:   8% (14/168)   [Kremote: Compressing objects:   9% (16/168)   [Kremote: Compressing objects:  10% (17/168)   [Kremote: Compressing objects:  11% (19/168)   [Kremote: Compressing objects:  12% (21/168)   [Kremote: Compressing objects:  13% (22/168)   [Kremote: Compressing objects:  14% (24/168)   [Kremote: Compressing objects:  15% (26/168)   [Kremote: Compressing objects:  16% (27/168)   [Kremote: Compressing objects:  17% (29/168)   [Kremote: Compressing objects:  18% (31/168)   [Kremote: Compressing objects:  19% (32/168)   [Kremote: Compressing objects:  20% (34/168)   [Kremote: Compressing objects:  21% (36/168)   [Kremote: Compressing objects:  22% (37/168)   [Kremote: Compressing objects:  23% (39/168)   [Kremote: Compressing objects:  24% (41/168)   [Kremote: Compressing objects:  25% (42/168)   [Kremote: Compressing objects:  26% (44/168)   [Kremote: Compressing objects:  27% (46/168)   [Kremote: Compressing objects:  28% (48/168)   [Kremote: Compressing objects:  29% (49/168)   [Kremote: Compressing objects:  30% (51/168)   [Kremote: Compressing objects:  31% (53/168)   [Kremote: Compressing objects:  32% (54/168)   [Kremote: Compressing objects:  33% (56/168)   [Kremote: Compressing objects:  34% (58/168)   [Kremote: Compressing objects:  35% (59/168)   [Kremote: Compressing objects:  36% (61/168)   [Kremote: Compressing objects:  37% (63/168)   [Kremote: Compressing objects:  38% (64/168)   [Kremote: Compressing objects:  39% (66/168)   [Kremote: Compressing objects:  40% (68/168)   [Kremote: Compressing objects:  41% (69/168)   [Kremote: Compressing objects:  42% (71/168)   [Kremote: Compressing objects:  43% (73/168)   [Kremote: Compressing objects:  44% (74/168)   [Kremote: Compressing objects:  45% (76/168)   [Kremote: Compressing objects:  46% (78/168)   [Kremote: Compressing objects:  47% (79/168)   [Kremote: Compressing objects:  48% (81/168)   [Kremote: Compressing objects:  49% (83/168)   [Kremote: Compressing objects:  50% (84/168)   [Kremote: Compressing objects:  51% (86/168)   [Kremote: Compressing objects:  52% (88/168)   [Kremote: Compressing objects:  53% (90/168)   [Kremote: Compressing objects:  54% (91/168)   [Kremote: Compressing objects:  55% (93/168)   [Kremote: Compressing objects:  56% (95/168)   [Kremote: Compressing objects:  57% (96/168)   [Kremote: Compressing objects:  58% (98/168)   [Kremote: Compressing objects:  59% (100/168)   [Kremote: Compressing objects:  60% (101/168)   [Kremote: Compressing objects:  61% (103/168)   [Kremote: Compressing objects:  62% (105/168)   [Kremote: Compressing objects:  63% (106/168)   [Kremote: Compressing objects:  64% (108/168)   [Kremote: Compressing objects:  65% (110/168)   [Kremote: Compressing objects:  66% (111/168)   [Kremote: Compressing objects:  67% (113/168)   [Kremote: Compressing objects:  68% (115/168)   [Kremote: Compressing objects:  69% (116/168)   [Kremote: Compressing objects:  70% (118/168)   [Kremote: Compressing objects:  71% (120/168)   [Kremote: Compressing objects:  72% (121/168)   [Kremote: Compressing objects:  73% (123/168)   [Kremote: Compressing objects:  74% (125/168)   [Kremote: Compressing objects:  75% (126/168)   [Kremote: Compressing objects:  76% (128/168)   [Kremote: Compressing objects:  77% (130/168)   [Kremote: Compressing objects:  78% (132/168)   [Kremote: Compressing objects:  79% (133/168)   [Kremote: Compressing objects:  80% (135/168)   [Kremote: Compressing objects:  81% (137/168)   [Kremote: Compressing objects:  82% (138/168)   [Kremote: Compressing objects:  83% (140/168)   [Kremote: Compressing objects:  84% (142/168)   [Kremote: Compressing objects:  85% (143/168)   [Kremote: Compressing objects:  86% (145/168)   [Kremote: Compressing objects:  87% (147/168)   [Kremote: Compressing objects:  88% (148/168)   [Kremote: Compressing objects:  89% (150/168)   [Kremote: Compressing objects:  90% (152/168)   [Kremote: Compressing objects:  91% (153/168)   [Kremote: Compressing objects:  92% (155/168)   [Kremote: Compressing objects:  93% (157/168)   [Kremote: Compressing objects:  94% (158/168)   [Kremote: Compressing objects:  95% (160/168)   [Kremote: Compressing objects:  96% (162/168)   [Kremote: Compressing objects:  97% (163/168)   [Kremote: Compressing objects:  98% (165/168)   [Kremote: Compressing objects:  99% (167/168)   [Kremote: Compressing objects: 100% (168/168)   [Kremote: Compressing objects: 100% (168/168), done.[K
+Receiving objects:   0% (1/191)   Receiving objects:   1% (2/191)   Receiving objects:   2% (4/191)   Receiving objects:   3% (6/191)   Receiving objects:   4% (8/191)   Receiving objects:   5% (10/191)   Receiving objects:   6% (12/191)   Receiving objects:   7% (14/191)   Receiving objects:   8% (16/191)   Receiving objects:   9% (18/191)   Receiving objects:  10% (20/191)   Receiving objects:  11% (22/191)   Receiving objects:  12% (23/191)   Receiving objects:  13% (25/191)   Receiving objects:  14% (27/191)   Receiving objects:  15% (29/191)   Receiving objects:  16% (31/191)   Receiving objects:  17% (33/191)   Receiving objects:  18% (35/191)   Receiving objects:  19% (37/191)   Receiving objects:  20% (39/191)   Receiving objects:  21% (41/191)   Receiving objects:  22% (43/191)   Receiving objects:  23% (44/191)   Receiving objects:  24% (46/191)   Receiving objects:  25% (48/191)   Receiving objects:  26% (50/191)   Receiving objects:  27% (52/191)   Receiving objects:  28% (54/191)   Receiving objects:  29% (56/191)   Receiving objects:  30% (58/191)   Receiving objects:  31% (60/191)   Receiving objects:  32% (62/191)   Receiving objects:  33% (64/191)   Receiving objects:  34% (65/191)   Receiving objects:  35% (67/191)   Receiving objects:  36% (69/191)   Receiving objects:  37% (71/191)   Receiving objects:  38% (73/191)   Receiving objects:  39% (75/191)   Receiving objects:  40% (77/191)   Receiving objects:  41% (79/191)   Receiving objects:  42% (81/191)   Receiving objects:  43% (83/191)   Receiving objects:  44% (85/191)   Receiving objects:  45% (86/191)   Receiving objects:  46% (88/191)   Receiving objects:  47% (90/191)   Receiving objects:  48% (92/191)   Receiving objects:  49% (94/191)   Receiving objects:  50% (96/191)   Receiving objects:  51% (98/191)   Receiving objects:  52% (100/191)   Receiving objects:  53% (102/191)   Receiving objects:  54% (104/191)   Receiving objects:  55% (106/191)   Receiving objects:  56% (107/191)   Receiving objects:  57% (109/191)   Receiving objects:  58% (111/191)   Receiving objects:  59% (113/191)   Receiving objects:  60% (115/191)   Receiving objects:  61% (117/191)   Receiving objects:  62% (119/191)   Receiving objects:  63% (121/191)   Receiving objects:  64% (123/191)   Receiving objects:  65% (125/191)   Receiving objects:  66% (127/191)   Receiving objects:  66% (127/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  67% (128/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  68% (130/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  69% (132/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  70% (134/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  71% (136/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  72% (138/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  73% (140/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  74% (142/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  75% (144/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  76% (146/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  77% (148/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  78% (149/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  79% (151/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  80% (153/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  81% (155/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  82% (157/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  83% (159/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  84% (161/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  85% (163/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  86% (165/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  87% (167/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  88% (169/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  89% (170/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  90% (172/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  91% (174/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  92% (176/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  93% (178/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  94% (180/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  95% (182/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  96% (184/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  97% (186/191), 436.00 KiB | 244.00 KiB/s   Receiving objects:  98% (188/191), 436.00 KiB | 244.00 KiB/s   remote: Total 191 (delta 31), reused 94 (delta 20), pack-reused 0[K
+Receiving objects:  99% (190/191), 1.45 MiB | 655.00 KiB/s   Receiving objects: 100% (191/191), 1.45 MiB | 655.00 KiB/s   Receiving objects: 100% (191/191), 1.50 MiB | 655.00 KiB/s, done.
+Resolving deltas:   0% (0/31)   Resolving deltas:  19% (6/31)   Resolving deltas:  58% (18/31)   Resolving deltas:  67% (21/31)   Resolving deltas:  70% (22/31)   Resolving deltas:  74% (23/31)   Resolving deltas:  77% (24/31)   Resolving deltas:  80% (25/31)   Resolving deltas:  83% (26/31)   Resolving deltas:  90% (28/31)   Resolving deltas:  96% (30/31)   Resolving deltas: 100% (31/31)   Resolving deltas: 100% (31/31), done.
+Note: checking out 'e91a095ad6751fdb9a7bd642ad9bc75afbdaac87'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+[33m--> Set up dex.local webpage.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> restarting the apache server(B[m
+[....] Reloading apache2 configuration (via systemctl): apache2.service[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+[33m--> Finished setting up noVNC(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> Set up Hostname Changer.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+Current hostname: dex
+no hostname change requested
+[33m--> End hostname change setup.(B[m
+[33m--> Start installing Samba.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 98%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+samba is already the newest version (2:4.5.16+dfsg-1).
+samba-common-bin is already the newest version (2:4.5.16+dfsg-1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Modify Samba configuration.
+Restart Samba service
+[....] Reloading smbd configuration (via systemctl): smbd.service[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+Set samba password for the default pi user.
+Failed to find entry for user pi.
+[33m--> End installing Samba.(B[m
+[33m--> Start installing Backup.(B[m
+[33m--> =======================================(B[m
+[33m (B[m
+[33m--> End installing Backup.(B[m
+[33m--> Begin cleanup.(B[m
+Installed wxpython tools
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 97%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+python-psutil is already the newest version (5.0.1-1).
+python-wxgtk3.0 is already the newest version (3.0.2.0+dfsg-4).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 18%Reading package lists... 36%Reading package lists... 55%Reading package lists... 72%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 57%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[33m--> End cleanup.(B[m
+[33m--> Update version on Desktop.(B[m
+rm: cannot remove 'Version': No such file or directory
+[33mModifying Version file to reflect Stretch distro(B[m
+No Cinch Found.
+START DESKTOP SHORTCUT UPDATE.
+==============================
+[33m--> =======================================(B[m
+[33m--> =======================================(B[m
+[33m  _    _               _           _                         (B[m
+[33m | |  | |             | |         | |                        (B[m
+[33m | |  | |  _ __     __| |   __ _  | |_    ___                (B[m
+[33m | |  | | | '_ \   / _\ |  / _\ | | __|  / _ \               (B[m
+[33m | |__| | | |_) | | (_| | | (_| | | |_  |  __/               (B[m
+[33m  \____/  | .__/   \__,_|  \__,_|  \__|_ \___|    _          (B[m
+[33m  / ____| | |                         | |        | |         (B[m
+[33m | |      |_|__    _ __ ___    _ __   | |   ___  | |_    ___ (B[m
+[33m | |       / _ \  |  _ \  _ \ |  _ \  | |  / _ \ | __|  / _ \ (B[m
+[33m | |____  | (_) | | | | | | | | |_) | | | |  __/ | |_  |  __/ (B[m
+[33m  \_____|  \___/  |_| |_| |_| | .__/  |_|  \___|  \__|  \___| (B[m
+[33m                              | |                            (B[m
+[33m                              |_|                            (B[m
+[33m--> Installation Complete.(B[m
+[33m--> (B[m
+[33m--> (B[m
+[33m--> Press the Exit button and the Pi will automatically reboot.(B[m

@@ -1,0 +1,31 @@
+Problem 3.1 with bonus streaming
+Exercise 5.2 with added backing up
+
+----------
+
+Problems
+3.1: square path saving trace
+	+Bonus: streaming video
+3.2: cardinal directions square saving trace
+	+Bonus: streaming video
+	+Bonus: continue path after avoiding obstacle
+4.1: identify both colors and faces
+5.1: demonstrate failure cases
+	+Bonus: implement improvement that prevents failure
+
+Exercises
+3.1: Learn the easygopigo3 library (movement API calls)
+3.2: Motor Encoders
+	A. Motor Encoders (read only)
+	B. Motor Encoders (read and move)
+	C. Motor Encoders (move and read?)
+	D. Motor Encoders (adjustable speed)
+	E. Motor Encoders (turning)
+3.3: Keyboard Robot Control
+3.4: Mouse Robot Control
+4.1: Detecting spots of color
+4.2: Face detection
+4.3: Upper body combined with face and eyes detection.
+5.1: IntelligentObjectAvoider (autonomous maze runner)
+5.2: ObjectAvoidanceRobot (move when clear)
+	++ backup when obstacle moves

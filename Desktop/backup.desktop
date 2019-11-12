@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Comment=Graphical user interface backup
+Exec=python /home/pi/di_update/Raspbian_For_Robots/backup/backup_gui.py
+Icon=/home/pi/di_update/Raspbian_For_Robots/backup/xarchiver-add.png
+GenericName=Backup Files
+Terminal=false
+Type=Application
+Name=Backup Files

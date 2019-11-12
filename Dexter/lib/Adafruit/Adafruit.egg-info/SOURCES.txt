@@ -1,0 +1,7 @@
+I2C.py
+Platform.py
+setup.py
+Adafruit.egg-info/PKG-INFO
+Adafruit.egg-info/SOURCES.txt
+Adafruit.egg-info/dependency_links.txt
+Adafruit.egg-info/top_level.txt
