@@ -158,3 +158,16 @@ exit
 cd ~/GoPiGo3-Projects/RemoteCameraRobot/
 python3 remote_robot.py 
 exit
+python3 ~/Project\ 1/module3problem1+streaming.py 
+ps -A | grep python
+kill 2153
+fg
+bg
+python3 ~/Project\ 1/module3problem1+streaming.py 
+ps -A | grep python
+kill 2607
+fg
+bg
+python3 ~/Project\ 1/module3problem1+streaming.py 
+python3 ~/Project\ 1/module5exercise2+backward.py 
+exit

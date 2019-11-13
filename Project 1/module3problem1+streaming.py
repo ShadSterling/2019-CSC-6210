@@ -159,25 +159,27 @@ def squarepath(trigger):
                 #recursive drive square
                 drive_and_turn(i,right)
                 break
-        #when object within 25cm encountered
-        gopigo3_robot.stop()
-        gopigo3_robot.turn_degrees(180)
-        #travel back rest of the distance (using enooder value which may not be robust value) 
-        #and take a turn(L/R) before continuing the square path again
-        gopigo3_robot.drive_cm(encoders_read)
-        if(right):
-            gopigo3_robot.turn_degrees(-90)
-            right = 0
-        else:
-            gopigo3_robot.turn_degrees(90)
-            right = 1
-        drive_and_turn(i,right)
+        if not trigger.is_set():
+            #when object within 25cm encountered
+            gopigo3_robot.stop()
+            gopigo3_robot.turn_degrees(180)
+            #travel back rest of the distance (using enooder value which may not be robust value) 
+            #and take a turn(L/R) before continuing the square path again
+            gopigo3_robot.drive_cm(encoders_read)
+            if(right):
+                gopigo3_robot.turn_degrees(-90)
+                right = 0
+            else:
+                gopigo3_robot.turn_degrees(90)
+                right = 1
+            drive_and_turn(i,right)
 
         return
 
-    drive_and_turn(i,right)
+    if not trigger.is_set():
+        drive_and_turn(i,right)
 
-    #never returns
+    #returns when trigger is set
     return
 #TODOCODE################################################################333
 
@@ -394,7 +396,7 @@ def robotControl(trigger, simultaneous_launcher, motor_command_queue, sensor_que
         gopigo3_robot.stop()
 
 
-def Main(trigger):
+def Main(trigger,stream):
     """
     Main thread where the other 2 threads are started, where the keyboard is being read and
     where everything is brought together.
@@ -452,6 +454,7 @@ def Main(trigger):
                 except queue.Full:
                     pass
 
+    stream.shutdown()
     # exit codes depending on the issue
     if simultaneous_launcher.broken:
         sys.exit(1)
@@ -516,6 +519,8 @@ class StreamingServer(socketserver.ThreadingMixIn, server.HTTPServer):
 if __name__ == "__main__":
     # firing up the camera and starting the video streaming server
     camera = picamera.PiCamera(resolution='320x240', framerate=30)
+    camera.vflip = True
+    camera.hflip = True
     output = StreamingOutput()
     camera.start_recording(output, format='mjpeg')
     STREAM_PORT = 5001
@@ -523,7 +528,7 @@ if __name__ == "__main__":
     streamserver = Thread(target = stream.serve_forever)
     streamserver.start()
     logging.info("Started stream server for picamera")
-    # starting the navigation thread
+    # starting the keyboard control thread
     trigger = threading.Event() # event used when CTRL-C is pressed
     signal.signal(signal.SIGINT, lambda signum, frame : trigger.set()) # SIGINT (CTRL-C) signal handler
-    Main(trigger)
+    Main(trigger,stream)

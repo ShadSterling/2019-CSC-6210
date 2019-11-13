@@ -477,3 +477,44 @@ mmal: mmal_connection_enable: output port couldn't be enabled
 [I 00:17:33.241 NotebookApp] http://gopigo04:8888/
 [I 00:17:33.241 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [W 00:17:33.266 NotebookApp] No web browser found: could not locate runnable browser.
+[C 00:40:47.868 NotebookApp] received signal 15, stopping
+[I 00:40:47.873 NotebookApp] Shutting down 0 kernels
+[W 00:41:12.242 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 00:41:12.281 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 00:41:12.282 NotebookApp] The Jupyter Notebook is running at:
+[I 00:41:12.282 NotebookApp] http://gopigo04:8888/
+[I 00:41:12.282 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:41:12.307 NotebookApp] No web browser found: could not locate runnable browser.
+[C 09:06:18.714 NotebookApp] received signal 15, stopping
+[I 09:06:18.721 NotebookApp] Shutting down 0 kernels
+[W 09:06:42.269 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 09:06:42.309 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 09:06:42.309 NotebookApp] The Jupyter Notebook is running at:
+[I 09:06:42.310 NotebookApp] http://gopigo04:8888/
+[I 09:06:42.310 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:06:42.335 NotebookApp] No web browser found: could not locate runnable browser.
+[C 09:17:35.715 NotebookApp] received signal 15, stopping
+[I 09:17:35.719 NotebookApp] Shutting down 0 kernels
+[W 09:17:43.976 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 09:17:44.018 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 09:17:44.019 NotebookApp] The Jupyter Notebook is running at:
+[I 09:17:44.019 NotebookApp] http://gopigo04:8888/
+[I 09:17:44.019 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:17:44.044 NotebookApp] No web browser found: could not locate runnable browser.
+[I 01:03:47.285 NotebookApp] Malformed HTTP message from 2607:fb90:7c29:784:401b:39ce:9573:e54b: Malformed HTTP headers: ''
+[I 01:04:11.345 NotebookApp] Kernel started: 26c4fd46-0e93-4a0a-8418-180cac262386
+[I 01:05:05.682 NotebookApp] Starting buffering for 26c4fd46-0e93-4a0a-8418-180cac262386:d03fcac39f214a058e8e32a9e88aeea2
+[I 01:05:06.610 NotebookApp] Kernel restarted: 26c4fd46-0e93-4a0a-8418-180cac262386
+[I 01:05:09.970 NotebookApp] Restoring connection for 26c4fd46-0e93-4a0a-8418-180cac262386:d03fcac39f214a058e8e32a9e88aeea2
+[I 01:05:09.971 NotebookApp] Replaying 6 buffered messages
+[I 01:05:16.749 NotebookApp] Starting buffering for 26c4fd46-0e93-4a0a-8418-180cac262386:d03fcac39f214a058e8e32a9e88aeea2
+[I 01:05:17.802 NotebookApp] Kernel restarted: 26c4fd46-0e93-4a0a-8418-180cac262386
+[I 01:05:20.974 NotebookApp] Discarding 6 buffered messages for 26c4fd46-0e93-4a0a-8418-180cac262386:d03fcac39f214a058e8e32a9e88aeea2
+[I 01:05:21.680 NotebookApp] Kernel shutdown: 26c4fd46-0e93-4a0a-8418-180cac262386
+[W 01:05:21.698 NotebookApp] 404 GET /api/kernels/26c4fd46-0e93-4a0a-8418-180cac262386/channels?session_id=d03fcac39f214a058e8e32a9e88aeea2 (2607:fb90:7c29:784:401b:39ce:9573:e54b): Kernel does not exist: 26c4fd46-0e93-4a0a-8418-180cac262386
+[W 01:05:21.753 NotebookApp] 404 GET /api/kernels/26c4fd46-0e93-4a0a-8418-180cac262386/channels?session_id=d03fcac39f214a058e8e32a9e88aeea2 (2607:fb90:7c29:784:401b:39ce:9573:e54b) 66.35ms referer=None
+[W 01:05:22.946 NotebookApp] Replacing stale connection: 26c4fd46-0e93-4a0a-8418-180cac262386:d03fcac39f214a058e8e32a9e88aeea2
+[W 01:05:31.779 NotebookApp] 404 DELETE /api/sessions/55f04324-4de8-463d-ac08-5a71fd66f80d (2607:fb90:7c29:784:401b:39ce:9573:e54b): Session not found: session_id='55f04324-4de8-463d-ac08-5a71fd66f80d'
+[W 01:05:31.781 NotebookApp] Session not found: session_id='55f04324-4de8-463d-ac08-5a71fd66f80d'
+[W 01:05:31.784 NotebookApp] 404 DELETE /api/sessions/55f04324-4de8-463d-ac08-5a71fd66f80d (2607:fb90:7c29:784:401b:39ce:9573:e54b) 11.54ms referer=http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb
+[I 01:05:34.419 NotebookApp] Saving file at /Module 3/problem1_redo.ipynb
