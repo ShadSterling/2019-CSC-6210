@@ -171,3 +171,16 @@ bg
 python3 ~/Project\ 1/module3problem1+streaming.py 
 python3 ~/Project\ 1/module5exercise2+backward.py 
 exit
+python3 ~/Project\ 1/module3problem1+streaming.py 
+python3 ~/Project\ 1/module5exercise2+backward.py 
+ls
+exit
+wget
+history | grep nano | tail
+history | grep nano -B 10 | tail -n 30
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+raspi-config
+sudo raspi-config
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+sudo shutdown -r now; exit
+exit

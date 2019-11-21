@@ -518,3 +518,342 @@ mmal: mmal_connection_enable: output port couldn't be enabled
 [W 01:05:31.781 NotebookApp] Session not found: session_id='55f04324-4de8-463d-ac08-5a71fd66f80d'
 [W 01:05:31.784 NotebookApp] 404 DELETE /api/sessions/55f04324-4de8-463d-ac08-5a71fd66f80d (2607:fb90:7c29:784:401b:39ce:9573:e54b) 11.54ms referer=http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb
 [I 01:05:34.419 NotebookApp] Saving file at /Module 3/problem1_redo.ipynb
+[W 01:37:22.050 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 01:37:22.119 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 01:37:22.120 NotebookApp] The Jupyter Notebook is running at:
+[I 01:37:22.121 NotebookApp] http://gopigo04:8888/
+[I 01:37:22.121 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:37:22.168 NotebookApp] No web browser found: could not locate runnable browser.
+[C 01:37:53.229 NotebookApp] received signal 15, stopping
+[I 01:37:53.238 NotebookApp] Shutting down 0 kernels
+[W 01:38:20.105 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 01:38:20.162 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 01:38:20.163 NotebookApp] The Jupyter Notebook is running at:
+[I 01:38:20.163 NotebookApp] http://gopigo04:8888/
+[I 01:38:20.164 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:38:20.218 NotebookApp] No web browser found: could not locate runnable browser.
+[W 02:00:59.436 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 02:00:59.489 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 02:00:59.489 NotebookApp] The Jupyter Notebook is running at:
+[I 02:00:59.490 NotebookApp] http://gopigo04:8888/
+[I 02:00:59.490 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:00:59.519 NotebookApp] No web browser found: could not locate runnable browser.
+[C 02:02:37.459 NotebookApp] received signal 15, stopping
+[I 02:02:37.464 NotebookApp] Shutting down 0 kernels
+[W 02:03:02.503 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 02:03:02.541 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 02:03:02.542 NotebookApp] The Jupyter Notebook is running at:
+[I 02:03:02.542 NotebookApp] http://gopigo04:8888/
+[I 02:03:02.542 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:03:02.567 NotebookApp] No web browser found: could not locate runnable browser.
+[I 02:03:57.049 NotebookApp] 302 GET /tree/Module%203 (2607:fb90:7c3b:dc1d:2dfb:d98b:8025:f545) 17.99ms
+[I 08:08:52.347 NotebookApp] 302 POST /login?next=%2Ftree%2FModule%25203 (2607:fb90:7c3b:dc1d:2dfb:d98b:8025:f545) 9.28ms
+[I 08:09:06.657 NotebookApp] Kernel started: 052770c5-324c-47b7-b5bf-5045d83b7d62
+[I 08:10:10.661 NotebookApp] Starting buffering for 052770c5-324c-47b7-b5bf-5045d83b7d62:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:10:11.596 NotebookApp] Kernel restarted: 052770c5-324c-47b7-b5bf-5045d83b7d62
+[I 08:10:14.959 NotebookApp] Restoring connection for 052770c5-324c-47b7-b5bf-5045d83b7d62:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:10:14.960 NotebookApp] Replaying 6 buffered messages
+[I 08:10:20.682 NotebookApp] Starting buffering for 052770c5-324c-47b7-b5bf-5045d83b7d62:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:10:21.408 NotebookApp] Kernel shutdown: 052770c5-324c-47b7-b5bf-5045d83b7d62
+[I 08:11:06.564 NotebookApp] Saving file at /Module 3/problem1_redo.ipynb
+[E 08:35:02.498 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/usr/local/lib/python3.5/dist-packages/tornado-5.0.2-py3.5-linux-armv7l.egg/tornado/gen.py", line 1099, in run
+        value = future.result()
+      File "/usr/lib/python3.5/asyncio/futures.py", line 293, in result
+        raise self._exception
+      File "/usr/local/lib/python3.5/dist-packages/tornado-5.0.2-py3.5-linux-armv7l.egg/tornado/gen.py", line 315, in wrapper
+        yielded = next(result)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/kernelmanager.py", line 307, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/kernelmanager.py", line 387, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 052770c5-324c-47b7-b5bf-5045d83b7d62)
+[E 08:35:02.536 NotebookApp] {
+      "X-Xsrftoken": "2|8384da97|0a6c94850d6b5e76c6ab5efa776bd907|1573628637",
+      "Accept-Encoding": "gzip, deflate",
+      "Host": "gopigo04.local:8888",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15",
+      "X-Requested-With": "XMLHttpRequest",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Origin": "http://gopigo04.local:8888",
+      "Referer": "http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Cookie": "username-gopigo04-local-8888=\"2|1:0|10:1573650532|28:username-gopigo04-local-8888|44:NzI5ZGZhYWI1YjEyNDJmNTljYzE2ODIyZDc4NjZlYTI=|d29016fbd007b3c8c778d5025328ba805d95be925ff7f0fdedcc450737329146\"; _xsrf=2|8384da97|0a6c94850d6b5e76c6ab5efa776bd907|1573628637"
+    }
+[E 08:35:02.541 NotebookApp] 500 POST /api/kernels/052770c5-324c-47b7-b5bf-5045d83b7d62/restart (2607:fb90:7c3b:dc1d:2dfb:d98b:8025:f545) 40.45ms referer=http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb
+[W 08:35:02.668 NotebookApp] 404 DELETE /api/sessions/163a5000-3fbd-4d74-9579-65ea2f7c34b2 (2607:fb90:7c3b:dc1d:2dfb:d98b:8025:f545): Session not found: session_id='163a5000-3fbd-4d74-9579-65ea2f7c34b2'
+[W 08:35:02.670 NotebookApp] Session not found: session_id='163a5000-3fbd-4d74-9579-65ea2f7c34b2'
+[W 08:35:02.674 NotebookApp] 404 DELETE /api/sessions/163a5000-3fbd-4d74-9579-65ea2f7c34b2 (2607:fb90:7c3b:dc1d:2dfb:d98b:8025:f545) 11.88ms referer=http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb
+[I 08:35:03.010 NotebookApp] Kernel started: 036b6c40-37c3-420f-b178-0073e2bc4185
+[I 08:35:03.212 NotebookApp] Saving file at /Module 3/problem1_redo.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x180fa80 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 08:37:03.042 NotebookApp] Saving file at /Module 3/problem1_redo.ipynb
+[I 08:42:44.075 NotebookApp] Starting buffering for 036b6c40-37c3-420f-b178-0073e2bc4185:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:42:44.913 NotebookApp] Kernel restarted: 036b6c40-37c3-420f-b178-0073e2bc4185
+[I 08:42:48.091 NotebookApp] Restoring connection for 036b6c40-37c3-420f-b178-0073e2bc4185:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:42:48.091 NotebookApp] Replaying 6 buffered messages
+[I 08:43:10.832 NotebookApp] Saving file at /Module 3/problem1_redo.ipynb
+[I 08:43:13.338 NotebookApp] Starting buffering for 036b6c40-37c3-420f-b178-0073e2bc4185:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:43:14.266 NotebookApp] Kernel restarted: 036b6c40-37c3-420f-b178-0073e2bc4185
+[I 08:43:17.628 NotebookApp] Restoring connection for 036b6c40-37c3-420f-b178-0073e2bc4185:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:43:17.629 NotebookApp] Replaying 6 buffered messages
+[I 08:43:24.007 NotebookApp] Starting buffering for 036b6c40-37c3-420f-b178-0073e2bc4185:54fe217c8e7f4c33b13bc083a158cb0c
+[I 08:43:24.729 NotebookApp] Kernel shutdown: 036b6c40-37c3-420f-b178-0073e2bc4185
+[C 08:43:55.373 NotebookApp] received signal 15, stopping
+[I 08:43:55.375 NotebookApp] Shutting down 0 kernels
+[W 08:44:19.335 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 08:44:19.374 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 08:44:19.375 NotebookApp] The Jupyter Notebook is running at:
+[I 08:44:19.375 NotebookApp] http://gopigo04:8888/
+[I 08:44:19.376 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 08:44:19.400 NotebookApp] No web browser found: could not locate runnable browser.
+[C 17:35:51.721 NotebookApp] received signal 15, stopping
+[I 17:35:51.726 NotebookApp] Shutting down 0 kernels
+[W 17:36:16.014 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 17:36:16.053 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 17:36:16.053 NotebookApp] The Jupyter Notebook is running at:
+[I 17:36:16.054 NotebookApp] http://gopigo04:8888/
+[I 17:36:16.054 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:36:16.079 NotebookApp] No web browser found: could not locate runnable browser.
+[I 17:36:42.387 NotebookApp] Kernel started: 48c14abe-014d-41a8-80b2-de97019f5a29
+[I 17:37:11.179 NotebookApp] Starting buffering for 48c14abe-014d-41a8-80b2-de97019f5a29:4c747b720cbe42519da0a39ec399de58
+[I 17:37:12.003 NotebookApp] Kernel shutdown: 48c14abe-014d-41a8-80b2-de97019f5a29
+[I 17:39:20.278 NotebookApp] Saving file at /Module 3/problem1_redo.ipynb
+[E 18:02:14.214 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/usr/local/lib/python3.5/dist-packages/tornado-5.0.2-py3.5-linux-armv7l.egg/tornado/gen.py", line 1099, in run
+        value = future.result()
+      File "/usr/lib/python3.5/asyncio/futures.py", line 293, in result
+        raise self._exception
+      File "/usr/local/lib/python3.5/dist-packages/tornado-5.0.2-py3.5-linux-armv7l.egg/tornado/gen.py", line 315, in wrapper
+        yielded = next(result)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/kernelmanager.py", line 307, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/kernelmanager.py", line 387, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 48c14abe-014d-41a8-80b2-de97019f5a29)
+[E 18:02:14.245 NotebookApp] {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15",
+      "Origin": "http://gopigo04.local:8888",
+      "Cookie": "username-gopigo04-local-8888=\"2|1:0|10:1573650532|28:username-gopigo04-local-8888|44:NzI5ZGZhYWI1YjEyNDJmNTljYzE2ODIyZDc4NjZlYTI=|d29016fbd007b3c8c778d5025328ba805d95be925ff7f0fdedcc450737329146\"; _xsrf=2|8384da97|0a6c94850d6b5e76c6ab5efa776bd907|1573628637",
+      "Accept-Encoding": "gzip, deflate",
+      "X-Xsrftoken": "2|8384da97|0a6c94850d6b5e76c6ab5efa776bd907|1573628637",
+      "Content-Length": "0",
+      "Accept-Language": "en-us",
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Host": "gopigo04.local:8888",
+      "Referer": "http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb",
+      "Connection": "keep-alive"
+    }
+[E 18:02:14.246 NotebookApp] 500 POST /api/kernels/48c14abe-014d-41a8-80b2-de97019f5a29/restart (2607:fb90:7c2f:8c62:b4cc:974e:fc81:e8a8) 35.80ms referer=http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb
+[W 18:02:14.276 NotebookApp] 404 DELETE /api/sessions/b765da45-6c4d-4827-ac92-f8a7034c29f0 (2607:fb90:7c2f:8c62:b4cc:974e:fc81:e8a8): Session not found: session_id='b765da45-6c4d-4827-ac92-f8a7034c29f0'
+[W 18:02:14.278 NotebookApp] Session not found: session_id='b765da45-6c4d-4827-ac92-f8a7034c29f0'
+[W 18:02:14.282 NotebookApp] 404 DELETE /api/sessions/b765da45-6c4d-4827-ac92-f8a7034c29f0 (2607:fb90:7c2f:8c62:b4cc:974e:fc81:e8a8) 12.17ms referer=http://gopigo04.local:8888/notebooks/Module%203/problem1_redo.ipynb
+[I 18:02:14.380 NotebookApp] Kernel started: 23250f7e-4abb-4851-955f-cfb96f108025
+[I 18:02:52.205 NotebookApp] Starting buffering for 23250f7e-4abb-4851-955f-cfb96f108025:4c747b720cbe42519da0a39ec399de58
+[I 18:02:52.947 NotebookApp] Kernel restarted: 23250f7e-4abb-4851-955f-cfb96f108025
+[I 18:02:56.151 NotebookApp] Restoring connection for 23250f7e-4abb-4851-955f-cfb96f108025:4c747b720cbe42519da0a39ec399de58
+[I 18:02:56.155 NotebookApp] Replaying 6 buffered messages
+[C 18:04:07.857 NotebookApp] received signal 15, stopping
+[I 18:04:07.859 NotebookApp] Shutting down 1 kernel
+[I 18:04:07.962 NotebookApp] Kernel shutdown: 23250f7e-4abb-4851-955f-cfb96f108025
+[W 18:04:32.190 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 18:04:32.230 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 18:04:32.230 NotebookApp] The Jupyter Notebook is running at:
+[I 18:04:32.231 NotebookApp] http://gopigo04:8888/
+[I 18:04:32.231 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:04:32.256 NotebookApp] No web browser found: could not locate runnable browser.
+[C 18:32:46.562 NotebookApp] received signal 15, stopping
+[I 18:32:46.572 NotebookApp] Shutting down 0 kernels
+[W 18:33:11.363 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 18:33:11.402 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 18:33:11.403 NotebookApp] The Jupyter Notebook is running at:
+[I 18:33:11.403 NotebookApp] http://gopigo04:8888/
+[I 18:33:11.404 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:33:11.435 NotebookApp] No web browser found: could not locate runnable browser.
+[C 19:00:53.409 NotebookApp] received signal 15, stopping
+[I 19:00:53.415 NotebookApp] Shutting down 0 kernels
+[W 19:01:17.797 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 19:01:17.836 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 19:01:17.836 NotebookApp] The Jupyter Notebook is running at:
+[I 19:01:17.837 NotebookApp] http://gopigo04:8888/
+[I 19:01:17.837 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:01:17.862 NotebookApp] No web browser found: could not locate runnable browser.
+[C 19:16:52.459 NotebookApp] received signal 15, stopping
+[I 19:16:52.464 NotebookApp] Shutting down 0 kernels
+[W 19:17:16.050 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 19:17:16.094 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 19:17:16.095 NotebookApp] The Jupyter Notebook is running at:
+[I 19:17:16.095 NotebookApp] http://gopigo04:8888/
+[I 19:17:16.095 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:17:16.120 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:31:06.196 NotebookApp] received signal 15, stopping
+[I 21:31:06.201 NotebookApp] Shutting down 0 kernels
+[W 21:31:31.386 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:31:31.425 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 21:31:31.426 NotebookApp] The Jupyter Notebook is running at:
+[I 21:31:31.426 NotebookApp] http://gopigo04:8888/
+[I 21:31:31.426 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:31:31.451 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:33:58.642 NotebookApp] received signal 15, stopping
+[I 21:33:58.647 NotebookApp] Shutting down 0 kernels
+[W 21:34:09.956 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:34:10.023 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 21:34:10.024 NotebookApp] The Jupyter Notebook is running at:
+[I 21:34:10.024 NotebookApp] http://gopigo04:8888/
+[I 21:34:10.025 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:34:10.060 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:41:38.418 NotebookApp] received signal 15, stopping
+[I 21:41:38.423 NotebookApp] Shutting down 0 kernels
+[W 21:42:03.469 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:42:03.528 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 21:42:03.529 NotebookApp] The Jupyter Notebook is running at:
+[I 21:42:03.529 NotebookApp] http://gopigo04:8888/
+[I 21:42:03.530 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:42:03.555 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:43:50.567 NotebookApp] received signal 15, stopping
+[I 21:43:50.572 NotebookApp] Shutting down 0 kernels
+[W 21:44:04.782 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:44:04.821 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 21:44:04.822 NotebookApp] The Jupyter Notebook is running at:
+[I 21:44:04.822 NotebookApp] http://gopigo04:8888/
+[I 21:44:04.822 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:44:04.847 NotebookApp] No web browser found: could not locate runnable browser.
+[C 22:14:26.927 NotebookApp] received signal 15, stopping
+[I 22:14:26.936 NotebookApp] Shutting down 0 kernels
+[W 22:14:49.948 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 22:14:50.002 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 22:14:50.003 NotebookApp] The Jupyter Notebook is running at:
+[I 22:14:50.004 NotebookApp] http://gopigo04:8888/
+[I 22:14:50.004 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:14:50.031 NotebookApp] No web browser found: could not locate runnable browser.
+[C 22:19:18.500 NotebookApp] received signal 15, stopping
+[I 22:19:18.504 NotebookApp] Shutting down 0 kernels
+[W 22:19:33.813 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 22:19:33.852 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 22:19:33.853 NotebookApp] The Jupyter Notebook is running at:
+[I 22:19:33.853 NotebookApp] http://gopigo04:8888/
+[I 22:19:33.853 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:19:33.878 NotebookApp] No web browser found: could not locate runnable browser.
+[C 22:21:46.411 NotebookApp] received signal 15, stopping
+[I 22:21:46.416 NotebookApp] Shutting down 0 kernels
+[W 22:22:10.114 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 22:22:10.154 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 22:22:10.155 NotebookApp] The Jupyter Notebook is running at:
+[I 22:22:10.155 NotebookApp] http://gopigo04:8888/
+[I 22:22:10.155 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:22:10.183 NotebookApp] No web browser found: could not locate runnable browser.
+[W 22:33:41.733 NotebookApp] Notebook Project 2/M4E2/The Environment (GSUbot).ipynb is not trusted
+[I 22:33:42.330 NotebookApp] Kernel started: 5c5ca6e7-3dbb-42e1-a000-5a9c74273912
+[W 22:33:42.448 NotebookApp] 404 GET /.lessons_python/img/kernel.png (192.168.200.101) 90.96ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.535 NotebookApp] 404 GET /.lessons_python/img/busy_kernel.png (192.168.200.101) 8.85ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.566 NotebookApp] 404 GET /.lessons_python/img/JupyterLab.png (192.168.200.101) 9.39ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.578 NotebookApp] 404 GET /.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 10.45ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.594 NotebookApp] 404 GET /.lessons_python/img/stop.png (192.168.200.101) 9.02ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.673 NotebookApp] 404 GET /.lessons_python/img/stop_robot.png (192.168.200.101) 8.49ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.685 NotebookApp] 404 GET /.lessons_python/img/restart_and_clear.png (192.168.200.101) 8.93ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.698 NotebookApp] 404 GET /.lessons_python/img/shifttab_completion.png (192.168.200.101) 8.64ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:42.761 NotebookApp] Notebook Project 2/M4E2/The Environment (original).ipynb is not trusted
+[W 22:33:42.832 NotebookApp] 404 GET /.lessons_python/img/tab_completion.png (192.168.200.101) 8.32ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:33:43.036 NotebookApp] 404 GET /.lessons_python/img/tab_completion.png (192.168.200.101) 8.56ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[I 22:33:43.100 NotebookApp] Kernel started: 2d61651a-a8de-46ed-be35-f43aa12aa231
+[W 22:33:43.131 NotebookApp] 404 GET /.lessons_python/img/JupyterLab.png (192.168.200.101) 9.54ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:33:43.143 NotebookApp] 404 GET /.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 9.55ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:33:43.156 NotebookApp] 404 GET /.lessons_python/img/kernel.png (192.168.200.101) 9.76ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:33:43.169 NotebookApp] 404 GET /.lessons_python/img/busy_kernel.png (192.168.200.101) 10.89ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:33:43.190 NotebookApp] 404 GET /.lessons_python/img/stop.png (192.168.200.101) 9.17ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:33:43.206 NotebookApp] 404 GET /.lessons_python/img/restart_and_clear.png (192.168.200.101) 11.00ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:33:43.228 NotebookApp] 404 GET /.lessons_python/img/stop_robot.png (192.168.200.101) 10.22ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:33:43.240 NotebookApp] 404 GET /.lessons_python/img/shifttab_completion.png (192.168.200.101) 9.66ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(original).ipynb
+[W 22:35:36.449 NotebookApp] Notebook MODULE 1/Exercise 2/2_The_Environment.ipynb is not trusted
+[I 22:35:36.789 NotebookApp] Kernel started: 226920d5-4745-4a35-832f-3a312b60ff67
+[W 22:35:36.825 NotebookApp] 404 GET /.lessons_python/img/JupyterLab.png (192.168.200.101) 12.82ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.837 NotebookApp] 404 GET /.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 10.23ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.854 NotebookApp] 404 GET /.lessons_python/img/busy_kernel.png (192.168.200.101) 10.33ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.868 NotebookApp] 404 GET /.lessons_python/img/stop.png (192.168.200.101) 9.27ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.889 NotebookApp] 404 GET /.lessons_python/img/restart_and_clear.png (192.168.200.101) 9.31ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.904 NotebookApp] 404 GET /.lessons_python/img/stop_robot.png (192.168.200.101) 10.46ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.920 NotebookApp] 404 GET /.lessons_python/img/tab_completion.png (192.168.200.101) 10.19ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.934 NotebookApp] 404 GET /.lessons_python/img/shifttab_completion.png (192.168.200.101) 9.29ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[W 22:35:36.951 NotebookApp] 404 GET /.lessons_python/img/kernel.png (192.168.200.101) 9.46ms referer=http://gopigo04.local:8888/notebooks/MODULE%201/Exercise%202/2_The_Environment.ipynb
+[I 22:35:42.774 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:35:43.764 NotebookApp] Saving file at /Project 2/M4E2/The Environment (original).ipynb
+[I 22:35:47.925 NotebookApp] Starting buffering for 226920d5-4745-4a35-832f-3a312b60ff67:f2a5dc0bce094daca7433b46d8041085
+[W 22:38:27.178 NotebookApp] 404 GET /notebooks/Project%202/M4E2/~/.lessons_python/img/JupyterLab.png (192.168.200.101): No such file or directory: Project 2/M4E2/~/.lessons_python/img/JupyterLab.png
+[W 22:38:27.191 NotebookApp] 404 GET /notebooks/Project%202/M4E2/~/.lessons_python/img/JupyterLab.png (192.168.200.101) 17.35ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[W 22:38:27.201 NotebookApp] 404 GET /notebooks/Project%202/M4E2/~/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101): No such file or directory: Project 2/M4E2/~/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg
+[W 22:38:27.214 NotebookApp] 404 GET /notebooks/Project%202/M4E2/~/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 17.62ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[I 22:38:41.368 NotebookApp] 302 GET /notebooks/.lessons_python/img/JupyterLab.png (192.168.200.101) 8.41ms
+[I 22:38:41.387 NotebookApp] 302 GET /notebooks/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 8.35ms
+[I 22:38:41.400 NotebookApp] Refusing to serve hidden file, via 404 Error, use flag 'ContentsManager.allow_hidden' to enable
+[W 22:38:41.413 NotebookApp] 404 GET /files/.lessons_python/img/JupyterLab.png (192.168.200.101) 18.58ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[I 22:38:41.428 NotebookApp] Refusing to serve hidden file, via 404 Error, use flag 'ContentsManager.allow_hidden' to enable
+[W 22:38:41.442 NotebookApp] 404 GET /files/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 19.32ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[I 22:39:42.821 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:41:06.687 NotebookApp] 302 GET /notebooks/Project%202/.lessons_python/img/JupyterLab.png (192.168.200.101) 9.39ms
+[I 22:41:06.704 NotebookApp] 302 GET /notebooks/Project%202/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 9.19ms
+[I 22:41:06.719 NotebookApp] Refusing to serve hidden file, via 404 Error, use flag 'ContentsManager.allow_hidden' to enable
+[W 22:41:06.733 NotebookApp] 404 GET /files/Project%202/.lessons_python/img/JupyterLab.png (192.168.200.101) 18.71ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[I 22:41:06.749 NotebookApp] Refusing to serve hidden file, via 404 Error, use flag 'ContentsManager.allow_hidden' to enable
+[W 22:41:06.764 NotebookApp] 404 GET /files/Project%202/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 21.81ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[I 22:41:42.262 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:41:53.595 NotebookApp] 302 GET /notebooks/Project%202/M4E2/.lessons_python/img/JupyterLab.png (192.168.200.101) 9.11ms
+[I 22:41:53.611 NotebookApp] 302 GET /notebooks/Project%202/M4E2/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 8.90ms
+[I 22:41:53.626 NotebookApp] Refusing to serve hidden file, via 404 Error, use flag 'ContentsManager.allow_hidden' to enable
+[W 22:41:53.640 NotebookApp] 404 GET /files/Project%202/M4E2/.lessons_python/img/JupyterLab.png (192.168.200.101) 18.48ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[I 22:41:53.654 NotebookApp] Refusing to serve hidden file, via 404 Error, use flag 'ContentsManager.allow_hidden' to enable
+[W 22:41:53.667 NotebookApp] 404 GET /files/Project%202/M4E2/.lessons_python/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 19.61ms referer=http://gopigo04.local:8888/notebooks/Project%202/M4E2/The%20Environment%20(GSUbot).ipynb
+[I 22:43:05.634 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/JupyterLab.png (192.168.200.101) 8.78ms
+[I 22:43:05.656 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/GPG3_FullServoDistanceGoogly_1-1-300x300.jpg (192.168.200.101) 8.66ms
+[I 22:43:33.582 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/kernel.png (192.168.200.101) 4.95ms
+[I 22:43:33.591 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/busy_kernel.png (192.168.200.101) 4.72ms
+[I 22:43:33.600 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/stop.png (192.168.200.101) 4.85ms
+[I 22:43:42.241 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:43:42.692 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/restart_and_clear.png (192.168.200.101) 4.81ms
+[I 22:43:53.645 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/stop_robot.png (192.168.200.101) 4.74ms
+[I 22:44:03.492 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/tab_completion.png (192.168.200.101) 8.56ms
+[I 22:44:03.525 NotebookApp] 302 GET /notebooks/Project%202/M4E2/img/shifttab_completion.png (192.168.200.101) 9.31ms
+[I 22:45:42.254 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:49:42.246 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:51:38.452 NotebookApp] Kernel interrupted: 5c5ca6e7-3dbb-42e1-a000-5a9c74273912
+[I 22:51:42.252 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:53:42.254 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:55:42.249 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:57:42.784 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 22:59:42.251 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 23:01:42.256 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 23:03:42.253 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 23:07:42.260 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 23:21:42.266 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 23:22:15.732 NotebookApp] Kernel interrupted: 5c5ca6e7-3dbb-42e1-a000-5a9c74273912
+[I 23:22:54.000 NotebookApp] Kernel interrupted: 5c5ca6e7-3dbb-42e1-a000-5a9c74273912
+[I 23:23:09.721 NotebookApp] Starting buffering for 5c5ca6e7-3dbb-42e1-a000-5a9c74273912:beab908e4b7e4556bc74dc0aeac83322
+[I 23:23:10.451 NotebookApp] Kernel restarted: 5c5ca6e7-3dbb-42e1-a000-5a9c74273912
+[I 23:23:13.842 NotebookApp] Restoring connection for 5c5ca6e7-3dbb-42e1-a000-5a9c74273912:beab908e4b7e4556bc74dc0aeac83322
+[I 23:23:13.843 NotebookApp] Replaying 6 buffered messages
+[I 23:23:27.521 NotebookApp] Kernel interrupted: 5c5ca6e7-3dbb-42e1-a000-5a9c74273912
+[I 23:23:42.274 NotebookApp] Saving file at /Project 2/M4E2/The Environment (GSUbot).ipynb
+[I 23:26:45.682 NotebookApp] Starting buffering for 5c5ca6e7-3dbb-42e1-a000-5a9c74273912:beab908e4b7e4556bc74dc0aeac83322
+[I 23:26:48.624 NotebookApp] Starting buffering for 2d61651a-a8de-46ed-be35-f43aa12aa231:478a988630bf4bbaa551784bc46f916c
+[W 23:30:04.764 NotebookApp] Notebook Project 2/M1E3/First Ride Around (original).ipynb is not trusted
+[I 23:30:05.001 NotebookApp] Kernel started: efb2af3a-a7d3-4b9d-bc25-6e4169bb5d13
+[W 23:30:08.540 NotebookApp] Notebook Project 2/M1E3/First Ride Around (GSUbot).ipynb is not trusted
+[I 23:30:08.770 NotebookApp] Kernel started: 3a05bf5f-ef90-45e4-8a0e-138358dc3da5
+[I 23:32:05.814 NotebookApp] Saving file at /Project 2/M1E3/First Ride Around (original).ipynb
+[I 23:32:08.794 NotebookApp] Saving file at /Project 2/M1E3/First Ride Around (GSUbot).ipynb
+[I 23:36:22.587 NotebookApp] Kernel interrupted: 3a05bf5f-ef90-45e4-8a0e-138358dc3da5
+[I 23:36:29.951 NotebookApp] Starting buffering for 3a05bf5f-ef90-45e4-8a0e-138358dc3da5:b48cb60ce4ea4782a40f890d4e2b9070
+[I 23:36:30.683 NotebookApp] Kernel restarted: 3a05bf5f-ef90-45e4-8a0e-138358dc3da5
+[I 23:36:34.034 NotebookApp] Restoring connection for 3a05bf5f-ef90-45e4-8a0e-138358dc3da5:b48cb60ce4ea4782a40f890d4e2b9070
+[I 23:36:34.036 NotebookApp] Replaying 6 buffered messages
+[I 23:38:08.832 NotebookApp] Saving file at /Project 2/M1E3/First Ride Around (GSUbot).ipynb
