@@ -1,11 +1,11 @@
-20/11/19 22:21:54 Xvnc version TightVNC-1.3.9
-20/11/19 22:21:54 Copyright (C) 2000-2007 TightVNC Group
-20/11/19 22:21:54 Copyright (C) 1999 AT&T Laboratories Cambridge
-20/11/19 22:21:54 All Rights Reserved.
-20/11/19 22:21:54 See http://www.tightvnc.com/ for information on TightVNC
-20/11/19 22:21:54 Desktop name 'X' (gopigo04:1)
-20/11/19 22:21:54 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
-20/11/19 22:21:54 Listening for VNC connections on TCP port 5901
+25/11/19 13:44:02 Xvnc version TightVNC-1.3.9
+25/11/19 13:44:02 Copyright (C) 2000-2007 TightVNC Group
+25/11/19 13:44:02 Copyright (C) 1999 AT&T Laboratories Cambridge
+25/11/19 13:44:02 All Rights Reserved.
+25/11/19 13:44:02 See http://www.tightvnc.com/ for information on TightVNC
+25/11/19 13:44:02 Desktop name 'X' (gopigo04:1)
+25/11/19 13:44:02 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+25/11/19 13:44:02 Listening for VNC connections on TCP port 5901
 Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
 xrdb: No such file or directory
 xrdb: can't open file '/home/pi/.Xresources'

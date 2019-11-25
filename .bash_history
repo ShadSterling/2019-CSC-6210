@@ -184,3 +184,10 @@ sudo raspi-config
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
 sudo shutdown -r now; exit
 exit
+ls .lessons_python/
+ls .lessons_python/img
+cp -r .lessons_python Project\ 2/.lessons_python
+mv Project\ 2/.lessons_python Project\ 2/M4E2/
+mv Project\ 2/M4E2/.lessons_python/img Project\ 2/M4E2/
+rm -rf Project\ 2/M4E2/.lessons_python
+exit
