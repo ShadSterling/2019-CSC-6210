@@ -1201,3 +1201,46 @@ mmal: mmal_connection_enable: output port couldn't be enabled
 [I 22:38:51.129 NotebookApp] Replaying 6 buffered messages
 [I 22:38:55.063 NotebookApp] Saving file at /Project 2/M1E4/Hardware Testing (GSUbot).ipynb
 [I 22:38:59.332 NotebookApp] Starting buffering for 54a345d1-b7f4-468e-b666-5353c1e74904:7872006e3e31445e89521548db7f2420
+[W 22:54:45.986 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 22:54:46.085 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 22:54:46.085 NotebookApp] The Jupyter Notebook is running at:
+[I 22:54:46.086 NotebookApp] http://gopigo04:8888/
+[I 22:54:46.086 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:54:46.119 NotebookApp] No web browser found: could not locate runnable browser.
+[I 02:04:16.255 NotebookApp] 302 GET /notebooks/Project%202/M1E4/run.png (192.168.200.101) 4.94ms
+[I 02:04:16.435 NotebookApp] Kernel started: e7115bc6-7871-4f69-a2dc-372a3eaedf9e
+                                                                                            [W 02:05:28.640 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 02:05:28.679 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 02:05:28.680 NotebookApp] The Jupyter Notebook is running at:
+[I 02:05:28.680 NotebookApp] http://gopigo04:8888/
+[I 02:05:28.681 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:05:28.706 NotebookApp] No web browser found: could not locate runnable browser.
+[W 14:25:25.427 NotebookApp] Forbidden
+[W 14:25:25.431 NotebookApp] 403 GET /api/sessions?_=1574717528998 (192.168.200.101) 9.46ms referer=http://gopigo04.local:8888/tree/Project%202
+[W 14:25:25.442 NotebookApp] Forbidden
+[W 14:25:25.445 NotebookApp] 403 GET /api/terminals?_=1574717528999 (192.168.200.101) 7.28ms referer=http://gopigo04.local:8888/tree/Project%202
+[I 14:25:28.491 NotebookApp] 302 GET /tree/Project%202 (192.168.200.101) 9.28ms
+[W 14:25:32.413 NotebookApp] 401 POST /login?next=%2Ftree%2FProject%25202 (192.168.200.101) 15.44ms referer=http://gopigo04.local:8888/login?next=%2Ftree%2FProject%25202
+[I 14:25:37.296 NotebookApp] 302 POST /login?next=%2Ftree%2FProject%25202 (192.168.200.101) 10.40ms
+[I 14:25:47.904 NotebookApp] Kernel started: 8211748e-8b04-422d-8464-435658b539e3
+[I 14:27:47.846 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos.ipynb
+[I 14:34:52.623 NotebookApp] Starting buffering for 8211748e-8b04-422d-8464-435658b539e3:cffa0be8313944749510e8a46c8c4e97
+[I 14:35:40.795 NotebookApp] Kernel started: b12482a0-36ca-481d-a239-152ef9ad1177
+[I 14:37:40.797 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:38:36.044 NotebookApp] Starting buffering for b12482a0-36ca-481d-a239-152ef9ad1177:9c59e2b9d1ab45b68b2048b9fc39c1de
+[I 14:38:36.772 NotebookApp] Kernel restarted: b12482a0-36ca-481d-a239-152ef9ad1177
+[I 14:38:40.073 NotebookApp] Restoring connection for b12482a0-36ca-481d-a239-152ef9ad1177:9c59e2b9d1ab45b68b2048b9fc39c1de
+[I 14:38:40.074 NotebookApp] Replaying 6 buffered messages
+[I 14:39:40.820 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:41:40.896 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:43:40.958 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:47:40.997 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:49:41.044 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:51:40.996 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:52:31.071 NotebookApp] Starting buffering for b12482a0-36ca-481d-a239-152ef9ad1177:9c59e2b9d1ab45b68b2048b9fc39c1de
+[I 14:52:32.201 NotebookApp] Kernel restarted: b12482a0-36ca-481d-a239-152ef9ad1177
+[I 14:52:35.422 NotebookApp] Restoring connection for b12482a0-36ca-481d-a239-152ef9ad1177:9c59e2b9d1ab45b68b2048b9fc39c1de
+[I 14:52:35.423 NotebookApp] Replaying 6 buffered messages
+[I 14:52:38.286 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:53:40.806 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
+[I 14:54:27.196 NotebookApp] Saving file at /Project 2/M2E5/Taking Photos (GSUbot).ipynb
