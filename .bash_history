@@ -191,3 +191,5 @@ mv Project\ 2/.lessons_python Project\ 2/M4E2/
 mv Project\ 2/M4E2/.lessons_python/img Project\ 2/M4E2/
 rm -rf Project\ 2/M4E2/.lessons_python
 exit
+ls .conda
+ls .conda/pkgs/
