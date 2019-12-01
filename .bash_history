@@ -193,3 +193,16 @@ rm -rf Project\ 2/M4E2/.lessons_python
 exit
 ls .conda
 ls .conda/pkgs/
+ls -al .thumbnails/
+ls -al .thumbnails/*
+ls -al .config
+ls -al .gnupg
+ls -al .themes/
+ls -al .gtkrc-2.0 
+ls -al .idlerc
+ls -al .keras/
+/home/pi/Project\ 2/M2E7/compass_robot\ (GSUbot).py
+/home/pi/Project\ 2/M2E7/compass_robot\ \(GSUbot\).py
+python --version
+python3 --version
+/home/pi/Project\ 2/M2E7/compass_robot\ \(GSUbot\).py

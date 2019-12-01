@@ -1294,3 +1294,19 @@ mmal: mmal_connection_enable: output port couldn't be enabled
 [I 22:32:03.232 NotebookApp] Restoring connection for 4ec190da-1dd6-4bca-aeb2-deb2ee413594:8c37a0878a854b7395d22d670e5ba023
 [I 22:32:03.233 NotebookApp] Replaying 6 buffered messages
 [I 22:33:32.365 NotebookApp] Saving file at /Project 2/M2E6/Taking Videos (GSUbot).ipynb
+[C 02:09:58.987 NotebookApp] received signal 15, stopping
+[I 02:09:58.991 NotebookApp] Shutting down 2 kernels
+[I 02:09:59.101 NotebookApp] Kernel shutdown: 2ac5be2a-3e3a-4e69-8075-3985f8869407
+[I 02:09:59.104 NotebookApp] Kernel shutdown: 4ec190da-1dd6-4bca-aeb2-deb2ee413594
+[W 02:10:23.427 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 02:10:23.466 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 02:10:23.467 NotebookApp] The Jupyter Notebook is running at:
+[I 02:10:23.467 NotebookApp] http://gopigo04:8888/
+[I 02:10:23.467 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 02:10:23.492 NotebookApp] No web browser found: could not locate runnable browser.
+[W 13:17:26.439 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 13:17:26.489 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 13:17:26.490 NotebookApp] The Jupyter Notebook is running at:
+[I 13:17:26.490 NotebookApp] http://gopigo04:8888/
+[I 13:17:26.490 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:17:26.519 NotebookApp] No web browser found: could not locate runnable browser.
