@@ -217,3 +217,6 @@ less .lesshst
 stat .lesshst 
 ls -al .pki
 ls -al .pki/nssdb/
+/home/pi/Project\ 2/M2E8/run_this_GSUbot.py
+ls -al .local
+ls -al .local/*

@@ -1318,3 +1318,11 @@ mmal: mmal_connection_enable: output port couldn't be enabled
 [I 00:25:38.554 NotebookApp] http://gopigo04:8888/
 [I 00:25:38.555 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [W 00:25:38.579 NotebookApp] No web browser found: could not locate runnable browser.
+[C 11:31:28.698 NotebookApp] received signal 15, stopping
+[I 11:31:28.703 NotebookApp] Shutting down 0 kernels
+[W 11:31:54.077 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 11:31:54.119 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 11:31:54.120 NotebookApp] The Jupyter Notebook is running at:
+[I 11:31:54.120 NotebookApp] http://gopigo04:8888/
+[I 11:31:54.120 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:31:54.145 NotebookApp] No web browser found: could not locate runnable browser.
