@@ -1326,3 +1326,47 @@ mmal: mmal_connection_enable: output port couldn't be enabled
 [I 11:31:54.120 NotebookApp] http://gopigo04:8888/
 [I 11:31:54.120 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [W 11:31:54.145 NotebookApp] No web browser found: could not locate runnable browser.
+[W 18:17:27.740 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 18:17:27.780 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 18:17:27.780 NotebookApp] The Jupyter Notebook is running at:
+[I 18:17:27.780 NotebookApp] http://gopigo04:8888/
+[I 18:17:27.781 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:17:27.805 NotebookApp] No web browser found: could not locate runnable browser.
+[W 21:00:29.861 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:00:29.901 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 21:00:29.901 NotebookApp] The Jupyter Notebook is running at:
+[I 21:00:29.902 NotebookApp] http://gopigo04:8888/
+[I 21:00:29.902 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:00:29.927 NotebookApp] No web browser found: could not locate runnable browser.
+[C 08:03:57.612 NotebookApp] received signal 15, stopping
+[I 08:03:57.617 NotebookApp] Shutting down 0 kernels
+[W 08:04:22.400 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 08:04:22.439 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 08:04:22.440 NotebookApp] The Jupyter Notebook is running at:
+[I 08:04:22.440 NotebookApp] http://gopigo04:8888/
+[I 08:04:22.440 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 08:04:22.479 NotebookApp] No web browser found: could not locate runnable browser.
+[C 15:23:16.628 NotebookApp] received signal 15, stopping
+[I 15:23:16.634 NotebookApp] Shutting down 0 kernels
+[W 15:23:41.875 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 15:23:41.930 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 15:23:41.930 NotebookApp] The Jupyter Notebook is running at:
+[I 15:23:41.931 NotebookApp] http://gopigo04:8888/
+[I 15:23:41.931 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:23:41.975 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:30:51.769 NotebookApp] received signal 15, stopping
+[I 21:30:51.778 NotebookApp] Shutting down 0 kernels
+[W 21:31:18.188 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:31:18.228 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 21:31:18.228 NotebookApp] The Jupyter Notebook is running at:
+[I 21:31:18.228 NotebookApp] http://gopigo04:8888/
+[I 21:31:18.229 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:31:18.260 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:36:30.588 NotebookApp] received signal 15, stopping
+[I 21:36:30.597 NotebookApp] Shutting down 0 kernels
+[W 21:37:09.946 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:37:09.994 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 21:37:09.995 NotebookApp] The Jupyter Notebook is running at:
+[I 21:37:09.995 NotebookApp] http://gopigo04:8888/
+[I 21:37:09.995 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:37:10.026 NotebookApp] No web browser found: could not locate runnable browser.

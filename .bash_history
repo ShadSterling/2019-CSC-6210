@@ -220,3 +220,41 @@ ls -al .pki/nssdb/
 /home/pi/Project\ 2/M2E8/run_this_GSUbot.py
 ls -al .local
 ls -al .local/*
+grep -irn "Copyright (C)" Project\ 2
+ps -AHF | grep python
+kill 17911
+ps -AHF | grep python
+kill 18466
+ps -AHF | grep keyboard_solution
+kill 19300
+ps -AHF | grep keyboard_solution
+kill 20093
+ps -AHF | grep keyboard_solution
+kill 20249
+ps -AHF | grep keyboard_solution
+kill 20475
+ps -AHF | grep keyboard_solution
+kill 21194
+ps -AHF | grep keyboard_solution
+kill 21311
+ps -AHF | grep keyboard_solution
+kill 21402
+ps -AHF | grep keyboard_solution
+kill 21595
+grep -irn "Copyright (C)" Project\ 2
+/home/pi/Project\ 2/M2P1/keyboard_solution.py
+/home/pi/Project\ 2/M2P1/compass_robot\ (GSUbot).py
+/home/pi/Project\ 2/M2P1/compass_robot_GSUbot.py
+/home/pi/Project\ 2/M2P1/keyboard_solution.py
+python3 --version
+/home/pi/Project\ 2/M2P1/keyboard_solution.p   qqqqqqqqqy
+/home/pi/Project\ 2/M2P1/keyboard_solution.py
+bg
+fg
+/home/pi/Project\ 2/M2P1/keyboard_solution.py
+bf
+bg
+fg
+/home/pi/Project\ 2/M2P1/keyboard_solution.py
+exit
+/home/pi/Project\ 2/M2P1/keyboard_solution.py

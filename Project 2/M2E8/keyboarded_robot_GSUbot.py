@@ -2,7 +2,7 @@
 
 """
 GoPiGo3 for the Raspberry Pi: an open source robotics platform for the Raspberry Pi.
-Copyright (C) 2017  Dexter Industries
+Copyright (C) 2019 Dexter Industries and Georgia State University
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

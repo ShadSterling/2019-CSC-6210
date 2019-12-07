@@ -1,0 +1,63 @@
+Motivation
+	Frustrations
+	Unifying APIs
+	Hiding details of new language
+
+Architecture
+	Nested classes for e.g. robot.camera.image
+	Hiding complexity e.g. of running camera images through numpy
+	Currently mostly just passthroughs to gpg methods
+
+Property Hierarchy
+	hardware
+		manufacturer
+		model
+		version
+		serial
+	firmware
+		version
+	vitals
+		battery_volts
+		regulator_volts
+	distance
+		mm # reading in mm
+		aim # turn servo
+	camera
+		image # snapshot, instance of Image
+		record( filename, seconds )
+		aim # turn servo
+	imu
+		calibration_level
+		heading # stable_heading if background thread is running, instant_heading otherwise
+		instant_heading # current reading
+		stable_heading # average of readings from background thread
+	forward( distance, speed )
+	left()
+	right()
+	backward()
+	stop()
+	spin( degrees/heading, speed )
+	reset_all()
+	eyes( both / left, right )
+	blinkers( both / left, right )
+	motor_status( side ) # snapshot
+		flags
+		power
+		odometer
+		speed
+	odometer_read() # average
+	odometer_reset() # resets both to zero
+
+Future Work
+	support the rest of the exercises & assignments
+	avoid hanging when motors are unpowered
+	easy status monitoring
+	resource cleanup
+	more convenience methods - e.g. current speed & turning radius
+	configuration - many constants should be parameters
+	better handling of command queuing and interrupting
+	helpers for CLI, notebook, and webhosted UIs (in GSUbot module, not in Robot class)
+	configuration - map accessories to different ports (autodetection?)
+	plugin architecture (accessories)
+	19 TODO comments
+
