@@ -1370,3 +1370,583 @@ mmal: mmal_connection_enable: output port couldn't be enabled
 [I 21:37:09.995 NotebookApp] http://gopigo04:8888/
 [I 21:37:09.995 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [W 21:37:10.026 NotebookApp] No web browser found: could not locate runnable browser.
+[C 22:38:55.422 NotebookApp] received signal 15, stopping
+[I 22:38:55.427 NotebookApp] Shutting down 0 kernels
+[W 22:39:20.801 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 22:39:20.848 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 22:39:20.849 NotebookApp] The Jupyter Notebook is running at:
+[I 22:39:20.850 NotebookApp] http://gopigo04:8888/
+[I 22:39:20.850 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:39:20.925 NotebookApp] No web browser found: could not locate runnable browser.
+[I 23:15:58.261 NotebookApp] Kernel started: 7e66eded-1d9a-486b-a0c4-1cb80f164834
+[I 23:16:03.567 NotebookApp] Starting buffering for 7e66eded-1d9a-486b-a0c4-1cb80f164834:d9e2b5461329484badb2c5a16229ee10
+[I 23:17:50.922 NotebookApp] Kernel started: 359e5f19-e487-4091-9ed4-ee860e792905
+[I 23:17:54.463 NotebookApp] Kernel started: 501f2bc8-696f-4cac-83f0-68589fc0db94
+[I 23:19:51.772 NotebookApp] Saving file at /Project 2/M2P1/problem1.ipynb
+[I 23:19:54.431 NotebookApp] Saving file at /Project 2/M2P1/problem1_redo.ipynb
+[I 23:20:00.748 NotebookApp] Starting buffering for 501f2bc8-696f-4cac-83f0-68589fc0db94:df65a1ac65ea4dc199a2f565fc40e1da
+[I 23:20:19.650 NotebookApp] Starting buffering for 359e5f19-e487-4091-9ed4-ee860e792905:9d856bc5833a430ea927c34929433706
+[I 23:25:24.107 NotebookApp] Kernel started: 93a6f36e-f183-476a-84fd-ea10a8b43cc4
+[I 23:25:38.953 NotebookApp] Kernel started: dcb82d03-a82c-4952-8665-14ae621355c2
+[I 23:25:49.865 NotebookApp] Starting buffering for dcb82d03-a82c-4952-8665-14ae621355c2:df364c7c2eee4b0b98f035524d2915e2
+[I 23:25:58.919 NotebookApp] Starting buffering for 93a6f36e-f183-476a-84fd-ea10a8b43cc4:4646739f8e524e9a8156a387bf84ba0a
+[I 23:31:00.519 NotebookApp] Kernel started: dae3e966-3c14-45ad-a524-e687bc61d7b3
+[I 23:34:23.038 NotebookApp] Starting buffering for dae3e966-3c14-45ad-a524-e687bc61d7b3:d6d7c35927884e1db96d4e8f3ae8167c
+[I 23:37:05.763 NotebookApp] Saving file at /Project 2/M2P1/problem1.ipynb
+[I 23:39:05.768 NotebookApp] Saving file at /Project 2/M2P1/problem1.ipynb
+[I 23:41:05.785 NotebookApp] Saving file at /Project 2/M2P1/problem1.ipynb
+[I 23:42:11.240 NotebookApp] Starting buffering for 359e5f19-e487-4091-9ed4-ee860e792905:975057de9c0740f9afeada72b04951a0
+[I 23:43:07.831 NotebookApp] Saving file at /Project 2/M2P1/problem1_redo.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xb4b400 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 23:45:07.858 NotebookApp] Saving file at /Project 2/M2P1/problem1_redo.ipynb
+[I 23:45:21.809 NotebookApp] Starting buffering for 501f2bc8-696f-4cac-83f0-68589fc0db94:1b0fa39f652e4f32950a9b53bec7636b
+[I 23:45:22.749 NotebookApp] Kernel restarted: 501f2bc8-696f-4cac-83f0-68589fc0db94
+[I 23:45:26.201 NotebookApp] Restoring connection for 501f2bc8-696f-4cac-83f0-68589fc0db94:1b0fa39f652e4f32950a9b53bec7636b
+[I 23:45:26.202 NotebookApp] Replaying 6 buffered messages
+[I 23:46:34.949 NotebookApp] Starting buffering for 501f2bc8-696f-4cac-83f0-68589fc0db94:1b0fa39f652e4f32950a9b53bec7636b
+[I 23:46:35.871 NotebookApp] Kernel shutdown: 501f2bc8-696f-4cac-83f0-68589fc0db94
+[I 23:46:52.220 NotebookApp] Starting buffering for 7e66eded-1d9a-486b-a0c4-1cb80f164834:03fc7a2afec049f58b6b1e4a6e53f249
+[I 23:46:52.942 NotebookApp] Kernel shutdown: 7e66eded-1d9a-486b-a0c4-1cb80f164834
+[I 23:47:02.611 NotebookApp] Starting buffering for 359e5f19-e487-4091-9ed4-ee860e792905:78a7fdffcb37437f8bb58ffd57cd17e2
+[I 23:47:03.337 NotebookApp] Kernel shutdown: 359e5f19-e487-4091-9ed4-ee860e792905
+[I 23:47:08.775 NotebookApp] Saving file at /Project 2/M2P1/problem1_redo.ipynb
+[W 23:47:13.590 NotebookApp] 404 GET /notebooks/Project%202/M2P1/Second%20Ride%20Around.ipynb (192.168.200.101): No such file or directory: Project 2/M2P1/Second Ride Around.ipynb
+[W 23:47:13.696 NotebookApp] 404 GET /notebooks/Project%202/M2P1/Second%20Ride%20Around.ipynb (192.168.200.101) 110.64ms referer=http://gopigo04.local:8888/tree/Project%202/M2P1
+[W 23:47:21.581 NotebookApp] 404 GET /notebooks/Project%202/M2P1/Taking%20Videos%20(updated).ipynb (192.168.200.101): No such file or directory: Project 2/M2P1/Taking Videos (updated).ipynb
+[W 23:47:21.594 NotebookApp] 404 GET /notebooks/Project%202/M2P1/Taking%20Videos%20(updated).ipynb (192.168.200.101) 16.82ms referer=http://gopigo04.local:8888/tree/Project%202/M2P1
+[W 23:47:28.492 NotebookApp] 404 GET /notebooks/Project%202/M2P1/Problem%201.ipynb (192.168.200.101): No such file or directory: Project 2/M2P1/Problem 1.ipynb
+[W 23:47:28.504 NotebookApp] 404 GET /notebooks/Project%202/M2P1/Problem%201.ipynb (192.168.200.101) 16.11ms referer=http://gopigo04.local:8888/tree/Project%202/M2P1
+[W 23:47:51.959 NotebookApp] delete /Project 2/M2P1/problem1.ipynb
+[I 23:48:51.365 NotebookApp] Kernel started: 2b7e0bfe-1f07-4afb-9f9a-b8e949be6abe
+[I 23:50:13.719 NotebookApp] Starting buffering for 2b7e0bfe-1f07-4afb-9f9a-b8e949be6abe:fb93c3df720a46729d033837b2fba9dc
+[I 23:50:14.651 NotebookApp] Kernel restarted: 2b7e0bfe-1f07-4afb-9f9a-b8e949be6abe
+[I 23:50:17.822 NotebookApp] Restoring connection for 2b7e0bfe-1f07-4afb-9f9a-b8e949be6abe:fb93c3df720a46729d033837b2fba9dc
+[I 23:50:17.823 NotebookApp] Replaying 6 buffered messages
+[I 23:50:51.372 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 23:54:51.366 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 23:58:51.378 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 00:00:51.393 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 00:02:51.364 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 00:04:51.382 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 00:06:51.365 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 00:07:31.483 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[C 00:08:02.059 NotebookApp] received signal 15, stopping
+[I 00:08:02.063 NotebookApp] Shutting down 4 kernels
+[I 00:08:02.181 NotebookApp] Kernel shutdown: dcb82d03-a82c-4952-8665-14ae621355c2
+[I 00:08:02.185 NotebookApp] Kernel shutdown: dae3e966-3c14-45ad-a524-e687bc61d7b3
+[I 00:08:02.189 NotebookApp] Kernel shutdown: 2b7e0bfe-1f07-4afb-9f9a-b8e949be6abe
+[I 00:08:02.193 NotebookApp] Kernel shutdown: 93a6f36e-f183-476a-84fd-ea10a8b43cc4
+[W 00:08:24.604 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 00:08:24.642 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 00:08:24.643 NotebookApp] The Jupyter Notebook is running at:
+[I 00:08:24.643 NotebookApp] http://gopigo04:8888/
+[I 00:08:24.644 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:08:24.668 NotebookApp] No web browser found: could not locate runnable browser.
+[C 00:10:24.084 NotebookApp] received signal 15, stopping
+[I 00:10:24.089 NotebookApp] Shutting down 0 kernels
+[W 00:10:49.393 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 00:10:49.432 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 00:10:49.433 NotebookApp] The Jupyter Notebook is running at:
+[I 00:10:49.433 NotebookApp] http://gopigo04:8888/
+[I 00:10:49.433 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:10:49.479 NotebookApp] No web browser found: could not locate runnable browser.
+[C 00:15:17.592 NotebookApp] received signal 15, stopping
+[I 00:15:17.597 NotebookApp] Shutting down 0 kernels
+[W 00:15:38.764 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 00:15:38.803 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 00:15:38.804 NotebookApp] The Jupyter Notebook is running at:
+[I 00:15:38.804 NotebookApp] http://gopigo04:8888/
+[I 00:15:38.804 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:15:38.829 NotebookApp] No web browser found: could not locate runnable browser.
+[C 00:17:51.147 NotebookApp] received signal 15, stopping
+[I 00:17:51.152 NotebookApp] Shutting down 0 kernels
+[W 00:18:07.925 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 00:18:07.964 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 00:18:07.965 NotebookApp] The Jupyter Notebook is running at:
+[I 00:18:07.965 NotebookApp] http://gopigo04:8888/
+[I 00:18:07.965 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:18:08.030 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:47:50.827 NotebookApp] Malformed HTTP message from 2607:fb90:7c8c:cadc:9527:cc40:5325:db97: Malformed HTTP headers: ''
+[I 16:47:56.115 NotebookApp] Kernel started: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 16:49:56.194 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 16:51:56.038 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 16:52:59.392 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 16:53:56.197 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 16:55:56.024 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 16:57:21.345 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 16:57:24.727 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 16:57:56.022 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1ffd2b0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 16:58:23.382 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 16:58:24.206 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 16:58:27.647 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 16:58:27.647 NotebookApp] Replaying 6 buffered messages
+[I 16:59:56.014 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x241bac0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:00:22.698 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:00:23.529 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:00:26.714 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:00:26.715 NotebookApp] Replaying 6 buffered messages
+[I 17:01:56.042 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:02:03.694 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2121e80 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2158b00 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:03:30.202 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:03:31.029 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:03:34.219 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:03:34.219 NotebookApp] Replaying 6 buffered messages
+[I 17:03:56.205 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:04:52.990 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1e73b50 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:05:02.429 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:05:03.360 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:05:06.536 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:05:06.536 NotebookApp] Replaying 6 buffered messages
+[I 17:05:56.986 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:07:52.765 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1914570 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:07:56.044 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:09:56.023 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:10:11.444 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1928160 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:10:22.642 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:10:23.469 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:10:26.623 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:10:26.623 NotebookApp] Replaying 6 buffered messages
+[I 17:11:55.811 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1c7cf30 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:13:56.986 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:16:23.172 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:16:24.003 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:16:27.144 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:16:27.144 NotebookApp] Replaying 6 buffered messages
+[I 17:17:56.037 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:18:02.312 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x22072d0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:19:48.046 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:19:48.875 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:19:52.034 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:19:52.035 NotebookApp] Replaying 6 buffered messages
+[I 17:19:56.036 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:20:24.900 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1f629a0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:20:47.519 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:21:14.320 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:21:15.250 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:21:18.697 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:21:18.698 NotebookApp] Replaying 6 buffered messages
+[I 17:21:56.040 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1f7a230 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:23:02.856 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1f8fbc0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:23:12.118 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:23:12.124 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:23:15.261 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:23:15.261 NotebookApp] Replaying 6 buffered messages
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x13f02d0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:23:56.048 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:24:08.229 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:24:11.399 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+GSUbot.Robot __del__
+[I 17:24:12.488 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:24:15.634 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:24:15.635 NotebookApp] Replaying 6 buffered messages
+[I 17:24:47.087 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2020180 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:25:27.570 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:25:32.617 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:25:33.856 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:25:37.035 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:25:37.036 NotebookApp] Replaying 6 buffered messages
+[I 17:25:54.637 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:25:56.050 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x182ac30 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:27:56.990 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:29:48.854 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:29:53.969 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:29:54.799 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:29:57.921 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:29:57.922 NotebookApp] Replaying 6 buffered messages
+[I 17:30:11.471 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:30:11.855 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:30:15.774 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:30:16.540 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:30:19.698 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:30:19.698 NotebookApp] Replaying 6 buffered messages
+[I 17:31:01.183 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2404210 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:31:56.082 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:32:07.978 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:32:18.911 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:32:19.740 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:32:23.178 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:32:23.178 NotebookApp] Replaying 6 buffered messages
+[I 17:33:56.062 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:34:26.227 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1f30410 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:35:56.919 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:45:09.662 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1f48d60 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:45:32.105 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1f50520 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:45:48.060 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:45:48.987 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:45:52.214 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:45:52.214 NotebookApp] Replaying 6 buffered messages
+[I 17:45:56.076 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:46:48.274 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:47:32.393 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2656360 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:47:39.815 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:47:40.744 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:47:44.215 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:47:44.216 NotebookApp] Replaying 6 buffered messages
+[I 17:47:57.424 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:48:16.544 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xea4260 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:48:44.735 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xeb9800 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:49:33.472 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xec1b10 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:49:56.071 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:49:58.074 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:49:59.003 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:50:02.440 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:50:02.441 NotebookApp] Replaying 6 buffered messages
+[I 17:50:31.707 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xcfe250 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:51:42.816 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:51:43.747 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:51:47.100 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:51:47.101 NotebookApp] Replaying 6 buffered messages
+[I 17:51:49.441 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:51:56.053 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:52:07.957 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2680ce0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:53:56.126 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:54:10.322 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:54:11.251 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:54:14.334 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:54:14.335 NotebookApp] Replaying 6 buffered messages
+[I 17:54:16.366 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x19b8320 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:55:21.691 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:55:22.519 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:55:25.632 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:55:25.632 NotebookApp] Replaying 6 buffered messages
+[I 17:55:28.137 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:55:56.057 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:56:14.292 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xf7afa0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:56:21.956 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:56:23.085 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:56:26.218 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:56:26.218 NotebookApp] Replaying 6 buffered messages
+[I 17:56:52.178 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1860c20 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:57:57.021 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 17:58:19.106 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x185b690 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:58:30.933 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x1871620 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:58:51.019 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:58:51.951 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 17:58:55.291 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 17:58:55.291 NotebookApp] Replaying 6 buffered messages
+[I 17:59:47.587 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x22f46e0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 17:59:56.067 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:01:00.355 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:01:01.185 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:01:04.283 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:01:04.284 NotebookApp] Replaying 6 buffered messages
+[I 18:01:50.812 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xed48d0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:01:56.085 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:02:25.330 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xee97e0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:02:32.634 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:02:33.461 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:02:36.893 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:02:36.894 NotebookApp] Replaying 6 buffered messages
+[I 18:03:31.425 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x14c4890 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:03:56.636 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:04:36.084 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x14da8e0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:04:53.321 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x14f3d40 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:05:16.232 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:05:17.159 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:05:20.304 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:05:20.305 NotebookApp] Replaying 6 buffered messages
+[I 18:05:56.065 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:06:14.131 NotebookApp] Kernel interrupted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x24b2ec0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:07:56.156 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:10:53.256 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:11:15.547 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:11:38.948 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:11:50.958 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:11:51.785 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:11:55.005 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:11:55.005 NotebookApp] Replaying 6 buffered messages
+[I 18:11:56.063 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:12:59.706 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:13:56.067 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:15:20.037 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:15:36.687 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:15:56.070 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:15:58.743 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:16:14.950 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:17:56.101 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:19:08.617 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xbdaee0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:19:56.104 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:21:56.075 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:22:13.546 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:22:31.430 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xf5b150 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:22:47.121 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:22:53.660 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:22:54.589 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:22:57.775 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:22:57.775 NotebookApp] Replaying 6 buffered messages
+[I 18:23:56.066 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:25:56.091 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:27:58.391 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:28:28.903 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2914e00 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:29:34.311 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x25b8d70 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:29:50.639 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:29:51.467 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:29:54.810 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:29:54.811 NotebookApp] Replaying 6 buffered messages
+[I 18:29:56.112 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:30:41.268 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2b37bc0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:31:57.075 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:33:51.310 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x27dc290 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:33:56.113 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2b5b510 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2b6b300 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:34:20.566 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:34:21.394 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:34:24.581 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:34:24.582 NotebookApp] Replaying 6 buffered messages
+[I 18:35:12.608 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2cdf2e0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:35:56.091 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:36:09.020 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2cf6140 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:36:17.867 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:36:18.694 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:36:21.858 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:36:21.858 NotebookApp] Replaying 6 buffered messages
+[I 18:36:31.219 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:37:56.150 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:38:30.853 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x14df180 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:39:56.108 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:40:42.453 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:40:57.950 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x118f550 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:41:14.417 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:41:15.245 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:41:16.776 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:41:18.558 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:41:18.559 NotebookApp] Replaying 6 buffered messages
+[I 18:41:56.205 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:42:33.069 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x2743bf0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:43:04.245 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x23ed440 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:43:13.028 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:43:13.956 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:43:15.323 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:43:17.175 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:43:17.176 NotebookApp] Replaying 6 buffered messages
+[I 18:43:56.218 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:44:15.654 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x20ad390 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:45:57.052 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:47:28.610 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:47:29.437 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:47:32.554 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:47:32.554 NotebookApp] Replaying 6 buffered messages
+[I 18:47:45.914 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:47:56.101 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:49:28.607 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x21d8cb0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:49:56.095 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:50:18.349 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:50:19.177 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:50:22.689 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:50:22.690 NotebookApp] Replaying 6 buffered messages
+[I 18:50:25.504 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x17b9ef0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 18:51:56.126 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:53:55.880 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:53:56.810 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:54:00.114 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:54:00.115 NotebookApp] Replaying 6 buffered messages
+[I 18:55:34.452 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:55:35.379 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 18:55:38.573 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 18:55:38.573 NotebookApp] Replaying 6 buffered messages
+[I 18:55:40.397 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 18:55:56.106 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:05:53.654 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:05:54.484 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 19:05:56.150 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:05:57.668 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:05:57.668 NotebookApp] Replaying 6 buffered messages
+[I 19:05:59.419 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:07:12.167 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:07:17.774 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:07:18.608 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 19:07:22.052 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:07:22.052 NotebookApp] Replaying 6 buffered messages
+[I 19:07:24.925 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:07:56.086 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:09:06.489 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:09:07.319 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 19:09:10.660 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:09:10.661 NotebookApp] Replaying 6 buffered messages
+[I 19:09:15.971 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:09:56.112 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0x21341e0 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 19:11:19.474 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:11:20.406 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 19:11:23.606 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:11:23.606 NotebookApp] Replaying 6 buffered messages
+[I 19:11:42.815 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:11:56.092 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:13:28.260 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+mmal: mmal_vc_port_enable: failed to enable port vc.null_sink:in:0(OPQV): ENOSPC
+mmal: mmal_port_enable: failed to enable connected port (vc.null_sink:in:0(OPQV))0xfe8830 (ENOSPC)
+mmal: mmal_connection_enable: output port couldn't be enabled
+[I 19:13:56.130 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:16:04.426 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:16:05.253 NotebookApp] Kernel restarted: 015a87f3-0cd2-4cb8-9bff-6fc226bddec8
+[I 19:16:08.457 NotebookApp] Restoring connection for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47
+[I 19:16:08.457 NotebookApp] Replaying 6 buffered messages
+[I 19:17:51.260 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:17:56.113 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:19:56.082 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:22:50.207 NotebookApp] Saving file at /Project 2/M2P1/notebook_solution.ipynb
+[I 19:22:53.336 NotebookApp] Starting buffering for 015a87f3-0cd2-4cb8-9bff-6fc226bddec8:06ab5d5d1a8d4c6ab7974b399fc0ee47

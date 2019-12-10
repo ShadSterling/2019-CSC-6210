@@ -2,31 +2,54 @@
 
 import easygopigo3
 import picamera
-import numpy as np
-from PIL import Image
-from di_sensors import inertial_measurement_unit
+import numpy ## because picamera can't just capture an image to an object
+from PIL import Image as PIL_Image ## because PIL couldn't be bothered to make PIL.Image work
+from di_sensors import inertial_measurement_unit as di_sensors_inertial_measurement_unit ## because di_sensors couldn't be bothered to make di_sensors.inertial_measurement_unit work
 import math
 import threading
 import collections
 import statistics
 import time
+import gc
+
 
 class Robot():
     __singleton_lock = threading.Lock()
     __singleton_instance = None
     def __new__(klass):
+        print( "GSUbot.Robot __new__" )
         with klass.__singleton_lock:
             if klass.__singleton_instance is None:
+                print( "GSUbot.Robot: creating singleton instance" )
                 klass.__singleton_instance = super().__new__(klass)
+                print( "GSUbot.Robot: created singleton instance", "(but it can't be accessed here because it hasn't been initialized)" )
+            else:
+                print( "GSUbot.Robot: reusing singleton instance", klass.__singleton_instance )
         return klass.__singleton_instance
     def __init__(self):
-        self.api_easy = easygopigo3.EasyGoPiGo3()
-        self.hardware = self.Hardware(self.api_easy)
-        self.firmware = self.Firmware(self.api_easy)
-        self.vitals = self.Vitals(self.api_easy)
-        self.distance = self.Distance( self.api_easy, self.Servo( self.api_easy, "SERVO1" ) )
-        self.camera = self.Camera( self.Servo( self.api_easy, "SERVO2" ) )
-        self.imu = self.IMU(self.api_easy)
+        if not hasattr( self, "api_easy" ) or self.api_easy is None:
+            print( "GSUbot.Robot __init__: initializing" )
+            self.api_easy = easygopigo3.EasyGoPiGo3()
+            self.hardware = self.Hardware(self.api_easy)
+            self.firmware = self.Firmware(self.api_easy)
+            self.vitals = self.Vitals(self.api_easy)
+            self.distance = self.Distance( self.api_easy, self.Servo( self.api_easy, "SERVO1" ) )
+            self.camera = self.Camera( self.Servo( self.api_easy, "SERVO2" ) )
+            self.imu = self.IMU(self.api_easy)
+            print( "GSUbot.Robot __init__: initialized" )
+        else:
+            print( "GSUbot.Robot __init__: already initialized" )
+    def __del__(self):
+        print( "GSUbot.Robot __del__ start" )
+        self.api_easy = None; del self.api_easy
+        self.hardware = None; del self.hardware
+        self.firmware = None; del self.firmware
+        self.vitals = None;   del self.vitals
+        self.distance = None; del self.distance
+        self.camera = None;   del self.camera
+        self.imu = None;      del self.imu
+        gc.collect()
+        print( "GSUbot.Robot __del__ end" )
     def forward( self, distance=None, speed=None ):
         if speed == None and distance == None:
             self.api_easy.forward()
@@ -159,10 +182,8 @@ class Robot():
             ">" )
         def __str__(self):
             return ( "("+
-                " flags="+str(self.flags)+
-                ", power="+str(self.power)+
-                ", odometer="+str(self.odometer)+
-                ", speed="+str(self.speed)+
+                " battery_volts="+str(self.battery_volts)+
+                ", regulator_volts="+str(self.regulator_volts)+
             " )" )
     class MotorStatus():
         def __init__( self, status ): ## see https://github.com/DexterInd/BrickPi3/blob/master/Software/Python/brickpi3.py#L939
@@ -203,12 +224,12 @@ class Robot():
             self.api_camera.vflip = True
             self.api_camera.hflip = True
             self.api_camera.framerate = 25 ## API doesn't save framerate in file, players use 25 as default
-            self.raw_image_array = np.empty((480, 640, 3), dtype = np.uint8)
+            self.raw_image_array = numpy.empty((480, 640, 3), dtype = numpy.uint8)
             self.servo = servo
         @property
         def image(self):
             self.api_camera.capture( self.raw_image_array, format = 'rgb', use_video_port = True )  ## updates self.raw_image_array
-            return Image.fromarray( self.raw_image_array )
+            return PIL_Image.fromarray( self.raw_image_array )
         def record( self, filename, seconds ):
             self.api_camera.start_recording( filename, format='h264' ) ## TODO: actually get a constant framerate OR use a format that allows a variable framerate
             self.api_camera.wait_recording( seconds )
@@ -221,7 +242,7 @@ class Robot():
     class IMU():
         def __init__(self,api_easy):
             self.api_easy = api_easy
-            self.api_imu = inertial_measurement_unit.InertialMeasurementUnit(bus = "GPG3_AD1")
+            self.api_imu = di_sensors_inertial_measurement_unit.InertialMeasurementUnit(bus = "GPG3_AD1")
             self.thread_heading = threading.Thread( target = self.__thread_heading_target, daemon = True )
             self.thread_heading_lock = threading.Lock()
             self.heading_history = collections.deque( maxlen=10 )  ##  TODO: make maxlen configurable
